@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.codejstudio</groupId>
+	<artifactId>lin4j-persistence-neo4j</artifactId>
+	<version>1.0.0</version>
+
+	<properties>
+		<neo4j.version>3.5.35</neo4j.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.codejstudio</groupId>
+			<artifactId>lin4j-persistence-interface</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j</artifactId>
+			<version>${neo4j.version}</version>
+		</dependency>
+	</dependencies>
+
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<properties>
+				<env>dev</env>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+		<profile>
+			<id>stg</id>
+			<properties>
+				<env>stg</env>
+			</properties>
+		</profile>
+		<profile>
+			<id>prd</id>
+			<properties>
+				<env>prd</env>
+			</properties>
+		</profile>
+	</profiles>
+
+	<build>
+		<filters>
+			<filter>src/main/resources/filters/${env}.properties</filter>
+		</filters>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.properties</include>
+				</includes>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

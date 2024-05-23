@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <logic-value value="1.0" id="0">
+        <description>true</description>
+    </logic-value>
+    <logic-value value="0.0" id="1">
+        <description>false</description>
+    </logic-value>
+    <condition id="2" type="dynamic-condition">
+        <description>NOT_SAME</description>
+    </condition>
+    <condition id="3" type="dynamic-condition">
+        <description>MAYBE_SAME</description>
+    </condition>
+    <concept id="4">
+        <relation-group id="24" type="relation-group"/>
+        <description>1</description>
+        <condition-group id="27" type="condition-group"/>
+        <attribute-group id="22" type="attribute-group"/>
+    </concept>
+    <concept id="5">
+        <relation-group id="32" type="relation-group"/>
+        <description>2</description>
+        <condition-group id="35" type="condition-group"/>
+        <attribute-group id="30" type="attribute-group"/>
+    </concept>
+    <concept id="6">
+        <relation-group id="40" type="relation-group"/>
+        <description>3</description>
+        <condition-group id="43" type="condition-group"/>
+        <attribute-group id="38" type="attribute-group"/>
+    </concept>
+    <concept id="7">
+        <relation-group id="48" type="relation-group"/>
+        <description>4</description>
+        <condition-group id="51" type="condition-group"/>
+        <attribute-group id="46" type="attribute-group"/>
+    </concept>
+    <concept id="8">
+        <relation-group id="56" type="relation-group"/>
+        <description>5</description>
+        <condition-group id="59" type="condition-group"/>
+        <attribute-group id="54" type="attribute-group"/>
+    </concept>
+    <concept id="9">
+        <description>+</description>
+    </concept>
+    <concept id="10">
+        <description>=</description>
+    </concept>
+    <concept id="11">
+        <description>数字</description>
+    </concept>
+    <concept id="12">
+        <description>算术表达式</description>
+    </concept>
+    <concept id="13">
+        <description>计算</description>
+    </concept>
+    <concept id="14">
+        <relation-group id="65" type="relation-group"/>
+        <description>1+1</description>
+        <sub-element-positions>
+            <item key="0,1" value="4"/>
+            <item key="1,1" value="9"/>
+            <item key="2,1" value="4"/>
+        </sub-element-positions>
+        <sub-concept-group id="60" type="concept-group"/>
+        <condition-group id="68" type="condition-group"/>
+        <attribute-group id="63" type="attribute-group"/>
+    </concept>
+    <concept id="15">
+        <relation-group id="74" type="relation-group"/>
+        <description>2+1</description>
+        <sub-element-positions>
+            <item key="0,1" value="5"/>
+            <item key="1,1" value="9"/>
+            <item key="2,1" value="4"/>
+        </sub-element-positions>
+        <sub-concept-group id="69" type="concept-group"/>
+        <condition-group id="77" type="condition-group"/>
+        <attribute-group id="72" type="attribute-group"/>
+    </concept>
+    <concept id="16">
+        <relation-group id="83" type="relation-group"/>
+        <description>3+1</description>
+        <sub-element-positions>
+            <item key="0,1" value="6"/>
+            <item key="1,1" value="9"/>
+            <item key="2,1" value="4"/>
+        </sub-element-positions>
+        <sub-concept-group id="78" type="concept-group"/>
+        <condition-group id="86" type="condition-group"/>
+        <attribute-group id="81" type="attribute-group"/>
+    </concept>
+    <concept id="17">
+        <relation-group id="92" type="relation-group"/>
+        <description>3+2</description>
+        <sub-element-positions>
+            <item key="0,1" value="6"/>
+            <item key="1,1" value="9"/>
+            <item key="2,1" value="5"/>
+        </sub-element-positions>
+        <sub-concept-group id="87" type="concept-group"/>
+        <condition-group id="95" type="condition-group"/>
+        <attribute-group id="90" type="attribute-group"/>
+    </concept>
+    <concept id="18">
+        <relation-group id="101" type="relation-group"/>
+        <description>4+1</description>
+        <sub-element-positions>
+            <item key="0,1" value="7"/>
+            <item key="1,1" value="9"/>
+            <item key="2,1" value="4"/>
+        </sub-element-positions>
+        <sub-concept-group id="96" type="concept-group"/>
+        <condition-group id="104" type="condition-group"/>
+        <attribute-group id="99" type="attribute-group"/>
+    </concept>
+    <concept id="19">
+        <relation-group id="110" type="relation-group"/>
+        <description>3+1+1</description>
+        <sub-element-positions>
+            <item key="0,1" value="6"/>
+            <item key="1,1" value="9"/>
+            <item key="2,1" value="4"/>
+            <item key="3,1" value="9"/>
+            <item key="4,1" value="4"/>
+        </sub-element-positions>
+        <sub-concept-group id="105" type="concept-group"/>
+        <condition-group id="113" type="condition-group"/>
+        <attribute-group id="108" type="attribute-group"/>
+    </concept>
+    <attribute key="default" id="20" type="default-attribute">
+        <relation-group id="25" type="relation-group"/>
+        <value id="11" type="concept"/>
+        <value-group id="21" type="generic-element-group"/>
+    </attribute>
+    <element id="21" type="generic-element-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="22" type="attribute-group">
+        <itx-elements>
+            <item key="group_20" id="20" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="23" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="20" type="default-attribute"/>
+            <item key="master" id="4" type="concept"/>
+        </itx-elements>
+        <primary id="4" type="concept"/>
+        <secondary id="20" type="default-attribute"/>
+    </relation>
+    <relation id="24" type="relation-group">
+        <itx-elements>
+            <item key="group_23" id="23" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="25" type="relation-group">
+        <itx-elements>
+            <item key="group_23" id="23" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="26" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="11" type="concept"/>
+        </itx-elements>
+        <description>数字</description>
+        <description-element id="11" type="concept"/>
+    </condition>
+    <condition id="27" type="condition-group">
+        <itx-elements>
+            <item key="group_26" id="26" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <attribute key="default" id="28" type="default-attribute">
+        <relation-group id="33" type="relation-group"/>
+        <value id="11" type="concept"/>
+        <value-group id="29" type="generic-element-group"/>
+    </attribute>
+    <element id="29" type="generic-element-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="30" type="attribute-group">
+        <itx-elements>
+            <item key="group_28" id="28" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="31" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="28" type="default-attribute"/>
+            <item key="master" id="5" type="concept"/>
+        </itx-elements>
+        <primary id="5" type="concept"/>
+        <secondary id="28" type="default-attribute"/>
+    </relation>
+    <relation id="32" type="relation-group">
+        <itx-elements>
+            <item key="group_31" id="31" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="33" type="relation-group">
+        <itx-elements>
+            <item key="group_31" id="31" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="34" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="11" type="concept"/>
+        </itx-elements>
+        <description>数字</description>
+        <description-element id="11" type="concept"/>
+    </condition>
+    <condition id="35" type="condition-group">
+        <itx-elements>
+            <item key="group_34" id="34" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <attribute key="default" id="36" type="default-attribute">
+        <relation-group id="41" type="relation-group"/>
+        <value id="11" type="concept"/>
+        <value-group id="37" type="generic-element-group"/>
+    </attribute>
+    <element id="37" type="generic-element-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="38" type="attribute-group">
+        <itx-elements>
+            <item key="group_36" id="36" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="39" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="36" type="default-attribute"/>
+            <item key="master" id="6" type="concept"/>
+        </itx-elements>
+        <primary id="6" type="concept"/>
+        <secondary id="36" type="default-attribute"/>
+    </relation>
+    <relation id="40" type="relation-group">
+        <itx-elements>
+            <item key="group_39" id="39" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="41" type="relation-group">
+        <itx-elements>
+            <item key="group_39" id="39" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="42" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="11" type="concept"/>
+        </itx-elements>
+        <description>数字</description>
+        <description-element id="11" type="concept"/>
+    </condition>
+    <condition id="43" type="condition-group">
+        <itx-elements>
+            <item key="group_42" id="42" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <attribute key="default" id="44" type="default-attribute">
+        <relation-group id="49" type="relation-group"/>
+        <value id="11" type="concept"/>
+        <value-group id="45" type="generic-element-group"/>
+    </attribute>
+    <element id="45" type="generic-element-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="46" type="attribute-group">
+        <itx-elements>
+            <item key="group_44" id="44" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="47" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="44" type="default-attribute"/>
+            <item key="master" id="7" type="concept"/>
+        </itx-elements>
+        <primary id="7" type="concept"/>
+        <secondary id="44" type="default-attribute"/>
+    </relation>
+    <relation id="48" type="relation-group">
+        <itx-elements>
+            <item key="group_47" id="47" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="49" type="relation-group">
+        <itx-elements>
+            <item key="group_47" id="47" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="50" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="11" type="concept"/>
+        </itx-elements>
+        <description>数字</description>
+        <description-element id="11" type="concept"/>
+    </condition>
+    <condition id="51" type="condition-group">
+        <itx-elements>
+            <item key="group_50" id="50" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <attribute key="default" id="52" type="default-attribute">
+        <relation-group id="57" type="relation-group"/>
+        <value id="11" type="concept"/>
+        <value-group id="53" type="generic-element-group"/>
+    </attribute>
+    <element id="53" type="generic-element-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="54" type="attribute-group">
+        <itx-elements>
+            <item key="group_52" id="52" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="55" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="52" type="default-attribute"/>
+            <item key="master" id="8" type="concept"/>
+        </itx-elements>
+        <primary id="8" type="concept"/>
+        <secondary id="52" type="default-attribute"/>
+    </relation>
+    <relation id="56" type="relation-group">
+        <itx-elements>
+            <item key="group_55" id="55" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="57" type="relation-group">
+        <itx-elements>
+            <item key="group_55" id="55" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="58" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="11" type="concept"/>
+        </itx-elements>
+        <description>数字</description>
+        <description-element id="11" type="concept"/>
+    </condition>
+    <condition id="59" type="condition-group">
+        <itx-elements>
+            <item key="group_58" id="58" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <concept id="60" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_4" id="4" type="concept"/>
+        </itx-elements>
+    </concept>
+    <attribute key="default" id="61" type="default-attribute">
+        <relation-group id="66" type="relation-group"/>
+        <value id="12" type="concept"/>
+        <value-group id="62" type="generic-element-group"/>
+    </attribute>
+    <element id="62" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="63" type="attribute-group">
+        <itx-elements>
+            <item key="group_61" id="61" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="64" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="61" type="default-attribute"/>
+            <item key="master" id="14" type="concept"/>
+        </itx-elements>
+        <primary id="14" type="concept"/>
+        <secondary id="61" type="default-attribute"/>
+    </relation>
+    <relation id="65" type="relation-group">
+        <itx-elements>
+            <item key="group_64" id="64" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="66" type="relation-group">
+        <itx-elements>
+            <item key="group_64" id="64" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="67" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="12" type="concept"/>
+        </itx-elements>
+        <description>算术表达式</description>
+        <description-element id="12" type="concept"/>
+    </condition>
+    <condition id="68" type="condition-group">
+        <itx-elements>
+            <item key="group_67" id="67" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <concept id="69" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_5" id="5" type="concept"/>
+            <item key="group_4" id="4" type="concept"/>
+        </itx-elements>
+    </concept>
+    <attribute key="default" id="70" type="default-attribute">
+        <relation-group id="75" type="relation-group"/>
+        <value id="12" type="concept"/>
+        <value-group id="71" type="generic-element-group"/>
+    </attribute>
+    <element id="71" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="72" type="attribute-group">
+        <itx-elements>
+            <item key="group_70" id="70" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="73" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="70" type="default-attribute"/>
+            <item key="master" id="15" type="concept"/>
+        </itx-elements>
+        <primary id="15" type="concept"/>
+        <secondary id="70" type="default-attribute"/>
+    </relation>
+    <relation id="74" type="relation-group">
+        <itx-elements>
+            <item key="group_73" id="73" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="75" type="relation-group">
+        <itx-elements>
+            <item key="group_73" id="73" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="76" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="12" type="concept"/>
+        </itx-elements>
+        <description>算术表达式</description>
+        <description-element id="12" type="concept"/>
+    </condition>
+    <condition id="77" type="condition-group">
+        <itx-elements>
+            <item key="group_76" id="76" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <concept id="78" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_4" id="4" type="concept"/>
+            <item key="group_6" id="6" type="concept"/>
+        </itx-elements>
+    </concept>
+    <attribute key="default" id="79" type="default-attribute">
+        <relation-group id="84" type="relation-group"/>
+        <value id="12" type="concept"/>
+        <value-group id="80" type="generic-element-group"/>
+    </attribute>
+    <element id="80" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="81" type="attribute-group">
+        <itx-elements>
+            <item key="group_79" id="79" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="82" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="79" type="default-attribute"/>
+            <item key="master" id="16" type="concept"/>
+        </itx-elements>
+        <primary id="16" type="concept"/>
+        <secondary id="79" type="default-attribute"/>
+    </relation>
+    <relation id="83" type="relation-group">
+        <itx-elements>
+            <item key="group_82" id="82" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="84" type="relation-group">
+        <itx-elements>
+            <item key="group_82" id="82" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="85" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="12" type="concept"/>
+        </itx-elements>
+        <description>算术表达式</description>
+        <description-element id="12" type="concept"/>
+    </condition>
+    <condition id="86" type="condition-group">
+        <itx-elements>
+            <item key="group_85" id="85" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <concept id="87" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_5" id="5" type="concept"/>
+            <item key="group_6" id="6" type="concept"/>
+        </itx-elements>
+    </concept>
+    <attribute key="default" id="88" type="default-attribute">
+        <relation-group id="93" type="relation-group"/>
+        <value id="12" type="concept"/>
+        <value-group id="89" type="generic-element-group"/>
+    </attribute>
+    <element id="89" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="90" type="attribute-group">
+        <itx-elements>
+            <item key="group_88" id="88" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="91" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="88" type="default-attribute"/>
+            <item key="master" id="17" type="concept"/>
+        </itx-elements>
+        <primary id="17" type="concept"/>
+        <secondary id="88" type="default-attribute"/>
+    </relation>
+    <relation id="92" type="relation-group">
+        <itx-elements>
+            <item key="group_91" id="91" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="93" type="relation-group">
+        <itx-elements>
+            <item key="group_91" id="91" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="94" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="12" type="concept"/>
+        </itx-elements>
+        <description>算术表达式</description>
+        <description-element id="12" type="concept"/>
+    </condition>
+    <condition id="95" type="condition-group">
+        <itx-elements>
+            <item key="group_94" id="94" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <concept id="96" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_4" id="4" type="concept"/>
+            <item key="group_7" id="7" type="concept"/>
+        </itx-elements>
+    </concept>
+    <attribute key="default" id="97" type="default-attribute">
+        <relation-group id="102" type="relation-group"/>
+        <value id="12" type="concept"/>
+        <value-group id="98" type="generic-element-group"/>
+    </attribute>
+    <element id="98" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="99" type="attribute-group">
+        <itx-elements>
+            <item key="group_97" id="97" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="100" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="97" type="default-attribute"/>
+            <item key="master" id="18" type="concept"/>
+        </itx-elements>
+        <primary id="18" type="concept"/>
+        <secondary id="97" type="default-attribute"/>
+    </relation>
+    <relation id="101" type="relation-group">
+        <itx-elements>
+            <item key="group_100" id="100" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="102" type="relation-group">
+        <itx-elements>
+            <item key="group_100" id="100" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="103" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="12" type="concept"/>
+        </itx-elements>
+        <description>算术表达式</description>
+        <description-element id="12" type="concept"/>
+    </condition>
+    <condition id="104" type="condition-group">
+        <itx-elements>
+            <item key="group_103" id="103" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <concept id="105" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_4" id="4" type="concept"/>
+            <item key="group_6" id="6" type="concept"/>
+        </itx-elements>
+    </concept>
+    <attribute key="default" id="106" type="default-attribute">
+        <relation-group id="111" type="relation-group"/>
+        <value id="12" type="concept"/>
+        <value-group id="107" type="generic-element-group"/>
+    </attribute>
+    <element id="107" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="108" type="attribute-group">
+        <itx-elements>
+            <item key="group_106" id="106" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="109" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="106" type="default-attribute"/>
+            <item key="master" id="19" type="concept"/>
+        </itx-elements>
+        <primary id="19" type="concept"/>
+        <secondary id="106" type="default-attribute"/>
+    </relation>
+    <relation id="110" type="relation-group">
+        <itx-elements>
+            <item key="group_109" id="109" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="111" type="relation-group">
+        <itx-elements>
+            <item key="group_109" id="109" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="112" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="12" type="concept"/>
+        </itx-elements>
+        <description>算术表达式</description>
+        <description-element id="12" type="concept"/>
+    </condition>
+    <condition id="113" type="condition-group">
+        <itx-elements>
+            <item key="group_112" id="112" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <judged-statement id="114" type="definition">
+        <description>1+1=2</description>
+        <sub-element-positions>
+            <item key="0,3" value="14"/>
+            <item key="3,1" value="10"/>
+            <item key="4,1" value="5"/>
+        </sub-element-positions>
+        <concept-group id="117" type="concept-group"/>
+    </judged-statement>
+    <judged-statement id="115" type="definition">
+        <description>3+1=4</description>
+        <sub-element-positions>
+            <item key="0,3" value="16"/>
+            <item key="3,1" value="10"/>
+            <item key="4,1" value="7"/>
+        </sub-element-positions>
+        <concept-group id="118" type="concept-group"/>
+    </judged-statement>
+    <judged-statement id="116" type="definition">
+        <description>4+1=5</description>
+        <sub-element-positions>
+            <item key="0,3" value="18"/>
+            <item key="3,1" value="10"/>
+            <item key="4,1" value="8"/>
+        </sub-element-positions>
+        <concept-group id="119" type="concept-group"/>
+    </judged-statement>
+    <concept id="117" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_5" id="5" type="concept"/>
+            <item key="group_14" id="14" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="118" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_7" id="7" type="concept"/>
+            <item key="group_16" id="16" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="119" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_8" id="8" type="concept"/>
+            <item key="group_18" id="18" type="concept"/>
+        </itx-elements>
+    </concept>
+    <condition id="120" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="11" type="concept"/>
+        </itx-elements>
+        <description>数字</description>
+        <description-element id="11" type="concept"/>
+    </condition>
+    <condition id="121" type="condition-group">
+        <itx-elements>
+            <item key="group_120" id="120" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="122" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="11" type="concept"/>
+        </itx-elements>
+        <description>数字</description>
+        <description-element id="11" type="concept"/>
+    </condition>
+    <condition id="123" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="12" type="concept"/>
+        </itx-elements>
+        <description>算术表达式</description>
+        <description-element id="12" type="concept"/>
+    </condition>
+    <condition id="124" type="or-condition-group">
+        <itx-attributes>
+            <item key="and-or-type" value="OR"/>
+        </itx-attributes>
+        <itx-elements>
+            <item key="group_123" id="123" type="attribute-condition"/>
+            <item key="group_122" id="122" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="125" type="condition-group">
+        <itx-elements>
+            <item key="group_2" id="2" type="dynamic-condition"/>
+        </itx-elements>
+    </condition>
+    <concept dynamic="true" id="126">
+        <itx-elements>
+            <item key="net-dynamic-conditions0" id="121" type="condition-group"/>
+        </itx-elements>
+        <description>&lt;$a&gt;</description>
+    </concept>
+    <concept dynamic="true" id="127">
+        <itx-elements>
+            <item key="net-dynamic-conditions0" id="124" type="or-condition-group"/>
+        </itx-elements>
+        <description>&lt;$1&gt;</description>
+    </concept>
+    <concept dynamic="true" id="128">
+        <itx-elements>
+            <item key="net-dynamic-conditions1" id="121" type="condition-group"/>
+            <item key="net-dynamic-conditions0" id="121" type="condition-group"/>
+        </itx-elements>
+        <description>&lt;$a&gt;+&lt;$b&gt;</description>
+        <sub-element-positions>
+            <item key="0,4" value="126"/>
+            <item key="4,1" value="9"/>
+        </sub-element-positions>
+        <sub-concept-group id="131" type="concept-group"/>
+    </concept>
+    <concept dynamic="true" id="129">
+        <itx-elements>
+            <item key="net-dynamic-conditions1" id="124" type="or-condition-group"/>
+            <item key="net-dynamic-conditions0" id="124" type="or-condition-group"/>
+        </itx-elements>
+        <description>&lt;$1&gt;+&lt;$2&gt;</description>
+        <sub-element-positions>
+            <item key="0,4" value="127"/>
+            <item key="4,1" value="9"/>
+        </sub-element-positions>
+        <sub-concept-group id="132" type="concept-group"/>
+    </concept>
+    <concept dynamic="true" id="130">
+        <itx-elements>
+            <item key="net-dynamic-conditions1" id="121" type="condition-group"/>
+            <item key="net-dynamic-conditions0" id="121" type="condition-group"/>
+        </itx-elements>
+        <relation-group id="167" type="relation-group"/>
+        <description>计算&lt;$a&gt;+&lt;$b&gt;</description>
+        <sub-element-positions>
+            <item key="0,2" value="13"/>
+            <item key="2,4" value="126"/>
+            <item key="2,9" value="128"/>
+        </sub-element-positions>
+        <sub-concept-group id="133" type="concept-group"/>
+    </concept>
+    <concept id="131" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_126" id="126" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="132" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_127" id="127" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="133" type="concept-group">
+        <itx-elements>
+            <item key="group_128" id="128" type="concept"/>
+            <item key="group_126" id="126" type="concept"/>
+            <item key="group_13" id="13" type="concept"/>
+        </itx-elements>
+    </concept>
+    <judged-statement dynamic="true" id="134" type="definition">
+        <itx-elements>
+            <item key="net-dynamic-conditions2" id="121" type="condition-group"/>
+            <item key="net-dynamic-conditions1" id="121" type="condition-group"/>
+            <item key="net-dynamic-conditions0" id="121" type="condition-group"/>
+        </itx-elements>
+        <description>&lt;$a&gt;+&lt;$b&gt;=&lt;$c&gt;</description>
+        <sub-element-positions>
+            <item key="0,4" value="126"/>
+            <item key="0,9" value="128"/>
+            <item key="9,1" value="10"/>
+        </sub-element-positions>
+        <concept-group id="141" type="concept-group"/>
+    </judged-statement>
+    <judged-statement dynamic="true" id="135" type="definition">
+        <itx-elements>
+            <item key="net-dynamic-conditions1" id="124" type="or-condition-group"/>
+            <item key="net-dynamic-conditions0" id="124" type="or-condition-group"/>
+        </itx-elements>
+        <description>&lt;$1&gt;=&lt;$2&gt;</description>
+        <sub-element-positions>
+            <item key="0,4" value="127"/>
+            <item key="4,1" value="10"/>
+        </sub-element-positions>
+        <concept-group id="142" type="concept-group"/>
+    </judged-statement>
+    <judged-statement dynamic="true" id="136" type="definition">
+        <itx-elements>
+            <item key="net-dynamic-conditions1" id="124" type="or-condition-group"/>
+            <item key="net-dynamic-conditions0" id="124" type="or-condition-group"/>
+        </itx-elements>
+        <description>&lt;$2&gt;=&lt;$1&gt;</description>
+        <sub-element-positions>
+            <item key="4,1" value="10"/>
+            <item key="5,4" value="127"/>
+        </sub-element-positions>
+        <concept-group id="143" type="concept-group"/>
+    </judged-statement>
+    <judged-statement dynamic="true" id="137" type="definition">
+        <itx-elements>
+            <item key="net-dynamic-conditions1" id="124" type="or-condition-group"/>
+            <item key="net-dynamic-conditions0" id="124" type="or-condition-group"/>
+        </itx-elements>
+        <description>&lt;$2&gt;=&lt;$3&gt;</description>
+        <sub-element-positions>
+            <item key="4,1" value="10"/>
+        </sub-element-positions>
+        <concept-group id="144" type="concept-group"/>
+    </judged-statement>
+    <judged-statement dynamic="true" id="138" type="definition">
+        <itx-elements>
+            <item key="net-dynamic-conditions1" id="124" type="or-condition-group"/>
+            <item key="net-dynamic-conditions0" id="124" type="or-condition-group"/>
+        </itx-elements>
+        <description>&lt;$1&gt;=&lt;$3&gt;</description>
+        <sub-element-positions>
+            <item key="0,4" value="127"/>
+            <item key="4,1" value="10"/>
+        </sub-element-positions>
+        <concept-group id="145" type="concept-group"/>
+    </judged-statement>
+    <judged-statement dynamic="true" id="139" type="definition">
+        <itx-elements>
+            <item key="net-dynamic-conditions2" id="124" type="or-condition-group"/>
+            <item key="net-dynamic-conditions1" id="124" type="or-condition-group"/>
+            <item key="net-dynamic-conditions0" id="124" type="or-condition-group"/>
+        </itx-elements>
+        <description>&lt;$1&gt;+&lt;$3&gt;=&lt;$2&gt;+&lt;$3&gt;</description>
+        <sub-element-positions>
+            <item key="9,1" value="10"/>
+        </sub-element-positions>
+        <concept-group id="146" type="concept-group"/>
+    </judged-statement>
+    <judged-statement dynamic="true" id="140" type="definition">
+        <itx-elements>
+            <item key="net-dynamic-conditions2" id="124" type="or-condition-group"/>
+            <item key="net-dynamic-conditions1" id="124" type="or-condition-group"/>
+            <item key="net-dynamic-conditions0" id="124" type="or-condition-group"/>
+        </itx-elements>
+        <description>&lt;$3&gt;+&lt;$1&gt;=&lt;$3&gt;+&lt;$2&gt;</description>
+        <sub-element-positions>
+            <item key="9,1" value="10"/>
+        </sub-element-positions>
+        <concept-group id="147" type="concept-group"/>
+    </judged-statement>
+    <concept id="141" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_128" id="128" type="concept"/>
+            <item key="group_126" id="126" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="142" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_127" id="127" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="143" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_127" id="127" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="144" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_127" id="127" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="145" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_127" id="127" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="146" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_129" id="129" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="147" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_129" id="129" type="concept"/>
+        </itx-elements>
+    </concept>
+    <judged-statement dynamic="true" id="148" type="definition">
+        <itx-elements>
+            <item key="net-dynamic-conditions2" id="121" type="condition-group"/>
+            <item key="net-dynamic-conditions1" id="121" type="condition-group"/>
+            <item key="net-dynamic-conditions0" id="121" type="condition-group"/>
+        </itx-elements>
+        <relation-group id="168" type="relation-group"/>
+        <description>&lt;$a&gt;+&lt;$b&gt;=&lt;#c&gt;</description>
+        <sub-element-positions>
+            <item key="0,4" value="126"/>
+            <item key="0,9" value="128"/>
+            <item key="9,1" value="10"/>
+        </sub-element-positions>
+        <concept-group id="141" type="concept-group"/>
+    </judged-statement>
+    <condition id="149" type="hypothetical-condition">
+        <itx-elements>
+            <item key="antecedent" id="135" type="definition"/>
+        </itx-elements>
+        <description>&lt;$1&gt;=&lt;$2&gt;</description>
+        <description-element id="135" type="definition"/>
+    </condition>
+    <judged-statement dynamic="true" id="150" type="hypothetical-proposition">
+        <itx-elements>
+            <item key="consequents" id="152" type="judged-statement-group"/>
+            <item key="whole-dynamic-condition" id="125" type="condition-group"/>
+            <item key="antecedents" id="151" type="condition-group"/>
+        </itx-elements>
+    </judged-statement>
+    <condition id="151" type="condition-group">
+        <itx-elements>
+            <item key="group_149" id="149" type="hypothetical-condition"/>
+        </itx-elements>
+    </condition>
+    <judged-statement id="152" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_136" id="136" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <condition id="153" type="hypothetical-condition">
+        <itx-elements>
+            <item key="antecedent" id="135" type="definition"/>
+        </itx-elements>
+        <description>&lt;$1&gt;=&lt;$2&gt;</description>
+        <description-element id="135" type="definition"/>
+    </condition>
+    <judged-statement dynamic="true" id="154" type="hypothetical-proposition">
+        <itx-elements>
+            <item key="consequents" id="156" type="judged-statement-group"/>
+            <item key="whole-dynamic-condition" id="125" type="condition-group"/>
+            <item key="antecedents" id="155" type="condition-group"/>
+        </itx-elements>
+    </judged-statement>
+    <condition id="155" type="condition-group">
+        <itx-elements>
+            <item key="group_153" id="153" type="hypothetical-condition"/>
+        </itx-elements>
+    </condition>
+    <judged-statement id="156" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_140" id="140" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <condition id="157" type="hypothetical-condition">
+        <itx-elements>
+            <item key="antecedent" id="135" type="definition"/>
+        </itx-elements>
+        <description>&lt;$1&gt;=&lt;$2&gt;</description>
+        <description-element id="135" type="definition"/>
+    </condition>
+    <judged-statement dynamic="true" id="158" type="hypothetical-proposition">
+        <itx-elements>
+            <item key="consequents" id="160" type="judged-statement-group"/>
+            <item key="whole-dynamic-condition" id="125" type="condition-group"/>
+            <item key="antecedents" id="159" type="condition-group"/>
+        </itx-elements>
+    </judged-statement>
+    <condition id="159" type="condition-group">
+        <itx-elements>
+            <item key="group_157" id="157" type="hypothetical-condition"/>
+        </itx-elements>
+    </condition>
+    <judged-statement id="160" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_139" id="139" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <condition id="161" type="hypothetical-condition">
+        <itx-elements>
+            <item key="antecedent" id="135" type="definition"/>
+        </itx-elements>
+        <description>&lt;$1&gt;=&lt;$2&gt;</description>
+        <description-element id="135" type="definition"/>
+    </condition>
+    <condition id="162" type="hypothetical-condition">
+        <itx-elements>
+            <item key="antecedent" id="137" type="definition"/>
+        </itx-elements>
+        <description>&lt;$2&gt;=&lt;$3&gt;</description>
+        <description-element id="137" type="definition"/>
+    </condition>
+    <judged-statement dynamic="true" id="163" type="hypothetical-proposition">
+        <itx-elements>
+            <item key="consequents" id="165" type="judged-statement-group"/>
+            <item key="whole-dynamic-condition" id="125" type="condition-group"/>
+            <item key="antecedents" id="164" type="condition-group"/>
+        </itx-elements>
+    </judged-statement>
+    <condition id="164" type="condition-group">
+        <itx-elements>
+            <item key="group_162" id="162" type="hypothetical-condition"/>
+            <item key="group_161" id="161" type="hypothetical-condition"/>
+        </itx-elements>
+    </condition>
+    <judged-statement id="165" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_138" id="138" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <relation id="166" type="equivalence-relation">
+        <primary id="130" type="concept"/>
+        <secondary id="148" type="definition"/>
+    </relation>
+    <relation id="167" type="relation-group">
+        <itx-elements>
+            <item key="group_166" id="166" type="equivalence-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="168" type="relation-group">
+        <itx-elements>
+            <item key="group_166" id="166" type="equivalence-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="169">
+        <description>2=1+1</description>
+    </judged-statement>
+    <judged-statement id="170">
+        <description>3+2=3+1+1</description>
+        <sub-information-element-group id="175" type="information-element-group"/>
+        <sub-element-positions>
+            <item key="4,1" value="6"/>
+            <item key="4,3" value="16"/>
+            <item key="4,5" value="19"/>
+        </sub-element-positions>
+    </judged-statement>
+    <judged-statement id="171">
+        <description>3+1+1=4+1</description>
+    </judged-statement>
+    <judged-statement id="172">
+        <description>3+2=4+1</description>
+        <sub-information-element-group id="176" type="information-element-group"/>
+        <sub-element-positions>
+            <item key="4,1" value="7"/>
+            <item key="4,3" value="18"/>
+        </sub-element-positions>
+    </judged-statement>
+    <judged-statement id="173">
+        <description>3+2=5</description>
+        <sub-information-element-group id="174" type="information-element-group"/>
+        <sub-element-positions>
+            <item key="4,1" value="8"/>
+        </sub-element-positions>
+    </judged-statement>
+    <information-element id="174" type="information-element-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="concept"/>
+        </itx-elements>
+    </information-element>
+    <information-element id="175" type="information-element-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="concept"/>
+            <item key="group_6" id="6" type="concept"/>
+            <item key="group_16" id="16" type="concept"/>
+        </itx-elements>
+    </information-element>
+    <information-element id="176" type="information-element-group">
+        <itx-elements>
+            <item key="group_18" id="18" type="concept"/>
+            <item key="group_7" id="7" type="concept"/>
+        </itx-elements>
+    </information-element>
+</lim-elements>
