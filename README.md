@@ -1,10 +1,10 @@
-# Artificial Logical General Intelligence (ALGI) v1.0.0(Prototype)
+# Artificial Logical General Intelligence (ALGI) v1.0.0 (Prototype "Holiday")
 Prototype "Holiday" - A prototype model to implement that lets a machine learn the algorithm of doing addition of two natural numbers, which follows logicism, rather than connectionism.  
 这是一个使用逻辑主义模式，而非联结主义模式，实现让机器学会两个自然数相加算法的原型模型。
 
 ![dialog1](https://github.com/CodeJStudio/algi/assets/114736018/938a8b6a-e2e9-4871-bff6-370ed93566be)
 
----------
+----------
 
 ### Refer to: 
 
@@ -14,7 +14,7 @@ Prototype "Holiday" - A prototype model to implement that lets a machine learn t
 
 [《从逻辑信息模型，到逻辑信息网络，直至实现通用人工智能》](https://zhuanlan.zhihu.com/p/497443483)
 
----------
+----------
 
 ### Preparation: 
 
@@ -33,7 +33,7 @@ Prototype "Holiday" - A prototype model to implement that lets a machine learn t
 >2). update configuration: "algi-nlp-corenlp\pom.xml",  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"algi-nlp-corenlp\src\main\resources\properties\nlp-config.properties"
 
----------
+----------
 
 ### Launch: 
 
@@ -52,10 +52,10 @@ Through the imported raw information and algorithm data, the result can be calcu
 
 4. If it's willing to retain the raw and calculated data after restarting the web server, the persistence switch in "algi-neuros/src/main/resources/properties/neuros.properties" should be opened in advance, and arg "-s" should be appended to the import operation. (eg: "import d:\HelloImporter.json -s")
 
-5. See ALGI-Samples for details on how this works.
 
+#### See ALGI-Samples for details on how this works.
 
----------
+----------
 
 # ALGI Samples
 
