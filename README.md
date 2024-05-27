@@ -110,7 +110,7 @@ It is also assumed that the results are not directly retrieved, and that there i
 Then, it is necessary to try to synthesize new valid results from existing information. 
 There are many paths from existing information to synthesis, and there are many ways to synthesize. 
 A single optimal path is demonstrated in "HelloHoliday2_1" and "HelloHoliday2_2", while an automatic synthesis operation is demonstrated in "HelloHoliday2_3" and "HelloHoliday3_3". 
-The latter relies on "SimpleThinkAction" for automatic synthesis. This is an extremely simplified simulation of the thinking process. And because there is no optimization at all, the execution is inefficient. (Same goes for "SimpleSentenceThinkAction") 
+The latter relies on "SimpleThinkAction" for automatic synthesis. This is an extremely simplified simulation of the thinking process. And because there is no optimization at all, the execution is inefficient (Same goes for "SimpleSentenceThinkAction"). 
 "algi-samples/src/main/resources/samples/HelloHoliday2_3.log" is a log file of synthesizing the results of "3+2", for reference. 
 Because of the random algorithm involved, each synthesis operation process is different, time-consuming, and even fails due to stack overflow. 
 "5+4" in "HelloHoliday3_3" is more difficult to calculate, takes longer, and has a lower success rate.  
@@ -119,7 +119,7 @@ Because of the random algorithm involved, each synthesis operation process is di
 此时，就需要用已有信息来尝试合成出新的、有效的结果。
 从已有信息到合成出结果，可以有很多条路径，合成的方式也可以有很多种。
 在“HelloHoliday2_1”和“HelloHoliday2_2”中演示了单条最优路径，而在“HelloHoliday2_3”和“HelloHoliday3_3”中则演示了一种自动合成的操作。
-后者依靠“SimpleThinkAction”完成自动合成。这是一种极简化的思考过程模拟，由于完全没有进行任何优化，因此执行效率很低。（“SimpleSentenceThinkAction”也是如此）
+后者依靠“SimpleThinkAction”完成自动合成。这是一种极简化的思考过程模拟，由于完全没有进行任何优化，因此执行效率很低（“SimpleSentenceThinkAction”也是如此）。
 “algi-samples/src/main/resources/samples/HelloHoliday2_3.log”是一份通过合成来求得“3+2”结果的日志，供参考。
 由于其中涉及随机算法，因此每一次的合成操作过程都不尽相同，耗时也较长，甚至会因堆栈溢出而失败。
 “HelloHoliday3_3”中“5+4”的运算难度更高，耗时更长，成功率更低。
