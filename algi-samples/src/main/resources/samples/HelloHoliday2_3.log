@@ -1,0 +1,1096 @@
+2024-05-22 20:45:24,274 [ElementTrace]-[INFO] New Element: <id=0, type=null, class=LogicValue>
+2024-05-22 20:45:24,290 [ElementTrace]-[INFO] New Element: <id=1, type=null, class=LogicValue>
+2024-05-22 20:45:24,290 [ElementTrace]-[INFO] New Element: <id=2, type=dynamic-condition, class=DynamicCondition>
+2024-05-22 20:45:24,290 [ElementTrace]-[INFO] <id=2, type=dynamic-condition, class=DynamicCondition>: setDescription("NOT_SAME")
+2024-05-22 20:45:24,290 [ElementTrace]-[INFO] New Element: <id=3, type=dynamic-condition, class=DynamicCondition>
+2024-05-22 20:45:24,290 [ElementTrace]-[INFO] <id=3, type=dynamic-condition, class=DynamicCondition>: setDescription("MAYBE_SAME")
+2024-05-22 20:45:24,290 [ElementTrace]-[INFO] <id=0, type=null, class=LogicValue>: setDescription("true")
+2024-05-22 20:45:24,290 [ElementTrace]-[INFO] <id=0, type=null, class=LogicValue>: setValue(1.0)
+2024-05-22 20:45:24,290 [ElementTrace]-[INFO] <id=1, type=null, class=LogicValue>: setDescription("false")
+2024-05-22 20:45:24,290 [ElementTrace]-[INFO] <id=1, type=null, class=LogicValue>: setValue(0.0)
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=4, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=4, type=null, class=Concept>: setDescription("1")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=5, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=5, type=null, class=Concept>: setDescription("2")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=6, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=6, type=null, class=Concept>: setDescription("3")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=7, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=7, type=null, class=Concept>: setDescription("4")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=8, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=8, type=null, class=Concept>: setDescription("5")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=9, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=9, type=null, class=Concept>: setDescription("+")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=10, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=10, type=null, class=Concept>: setDescription("=")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=11, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=11, type=null, class=Concept>: setDescription("数字")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=12, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=12, type=null, class=Concept>: setDescription("算术表达式")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=13, type=null, class=Concept>
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] <id=13, type=null, class=Concept>: setDescription("计算")
+2024-05-22 20:45:24,409 [ElementTrace]-[INFO] New Element: <id=14, type=null, class=Concept>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=14, type=null, class=Concept>: setDescription("1+1")
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=15, type=null, class=Concept>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=15, type=null, class=Concept>: setDescription("2+1")
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=16, type=null, class=Concept>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=16, type=null, class=Concept>: setDescription("3+1")
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=17, type=null, class=Concept>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=17, type=null, class=Concept>: setDescription("3+2")
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=18, type=null, class=Concept>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=18, type=null, class=Concept>: setDescription("4+1")
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=19, type=null, class=Concept>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=19, type=null, class=Concept>: setDescription("3+1+1")
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=20, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=20, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=21, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=20, type=default-attribute, class=DefaultAttribute>: setValue(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=21, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=20, type=default-attribute, class=DefaultAttribute>: addValue([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=22, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=22, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=20, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=22, type=attribute-group, class=AttributeGroup>: putAttribute([<id=20, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=23, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=24, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=24, type=relation-group, class=RelationGroup>: addGroupElement([<id=23, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=4, type=null, class=Concept>: addRelation([<id=23, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=23, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=4, type=null, class=Concept>)
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=25, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=25, type=relation-group, class=RelationGroup>: addGroupElement([<id=23, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=20, type=default-attribute, class=DefaultAttribute>: addRelation([<id=23, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=23, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=20, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,424 [ElementTrace]-[WARN] <id=4, type=null, class=Concept>fail to addAttribute([<id=20, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=26, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=26, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=26, type=attribute-condition, class=AttributeCondition>: setDescription("数字")
+2024-05-22 20:45:24,424 [ElementTrace]-[WARN] <id=26, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=27, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=27, type=condition-group, class=ConditionGroup>: addGroupElement([<id=26, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=4, type=null, class=Concept>: addCondition([<id=26, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] New Element: <id=28, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,424 [ElementTrace]-[INFO] <id=28, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] New Element: <id=29, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=28, type=default-attribute, class=DefaultAttribute>: setValue(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=29, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=28, type=default-attribute, class=DefaultAttribute>: addValue([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] New Element: <id=30, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=30, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=28, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=30, type=attribute-group, class=AttributeGroup>: putAttribute([<id=28, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] New Element: <id=31, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] New Element: <id=32, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=32, type=relation-group, class=RelationGroup>: addGroupElement([<id=31, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=5, type=null, class=Concept>: addRelation([<id=31, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=31, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=5, type=null, class=Concept>)
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] New Element: <id=33, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=33, type=relation-group, class=RelationGroup>: addGroupElement([<id=31, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,440 [ElementTrace]-[INFO] <id=28, type=default-attribute, class=DefaultAttribute>: addRelation([<id=31, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=31, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=28, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,456 [ElementTrace]-[WARN] <id=5, type=null, class=Concept>fail to addAttribute([<id=28, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] New Element: <id=34, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=34, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=34, type=attribute-condition, class=AttributeCondition>: setDescription("数字")
+2024-05-22 20:45:24,456 [ElementTrace]-[WARN] <id=34, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] New Element: <id=35, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=35, type=condition-group, class=ConditionGroup>: addGroupElement([<id=34, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=5, type=null, class=Concept>: addCondition([<id=34, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] New Element: <id=36, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=36, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] New Element: <id=37, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=36, type=default-attribute, class=DefaultAttribute>: setValue(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=37, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=36, type=default-attribute, class=DefaultAttribute>: addValue([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] New Element: <id=38, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=38, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=36, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=38, type=attribute-group, class=AttributeGroup>: putAttribute([<id=36, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] New Element: <id=39, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] New Element: <id=40, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=40, type=relation-group, class=RelationGroup>: addGroupElement([<id=39, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=6, type=null, class=Concept>: addRelation([<id=39, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,456 [ElementTrace]-[INFO] <id=39, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=6, type=null, class=Concept>)
+2024-05-22 20:45:24,471 [ElementTrace]-[INFO] New Element: <id=41, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,471 [ElementTrace]-[INFO] <id=41, type=relation-group, class=RelationGroup>: addGroupElement([<id=39, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,471 [ElementTrace]-[INFO] <id=36, type=default-attribute, class=DefaultAttribute>: addRelation([<id=39, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,471 [ElementTrace]-[INFO] <id=39, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=36, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,471 [ElementTrace]-[WARN] <id=6, type=null, class=Concept>fail to addAttribute([<id=36, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,471 [ElementTrace]-[INFO] New Element: <id=42, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=42, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=42, type=attribute-condition, class=AttributeCondition>: setDescription("数字")
+2024-05-22 20:45:24,487 [ElementTrace]-[WARN] <id=42, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=43, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=43, type=condition-group, class=ConditionGroup>: addGroupElement([<id=42, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=6, type=null, class=Concept>: addCondition([<id=42, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=44, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=44, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=45, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=44, type=default-attribute, class=DefaultAttribute>: setValue(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=45, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=44, type=default-attribute, class=DefaultAttribute>: addValue([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=46, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=46, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=44, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=46, type=attribute-group, class=AttributeGroup>: putAttribute([<id=44, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=47, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=48, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=48, type=relation-group, class=RelationGroup>: addGroupElement([<id=47, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=7, type=null, class=Concept>: addRelation([<id=47, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=47, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=7, type=null, class=Concept>)
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=49, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=49, type=relation-group, class=RelationGroup>: addGroupElement([<id=47, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=44, type=default-attribute, class=DefaultAttribute>: addRelation([<id=47, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=47, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=44, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,487 [ElementTrace]-[WARN] <id=7, type=null, class=Concept>fail to addAttribute([<id=44, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=50, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=50, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=50, type=attribute-condition, class=AttributeCondition>: setDescription("数字")
+2024-05-22 20:45:24,487 [ElementTrace]-[WARN] <id=50, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=51, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=51, type=condition-group, class=ConditionGroup>: addGroupElement([<id=50, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=7, type=null, class=Concept>: addCondition([<id=50, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] New Element: <id=52, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,487 [ElementTrace]-[INFO] <id=52, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,502 [ElementTrace]-[INFO] New Element: <id=53, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,502 [ElementTrace]-[INFO] <id=52, type=default-attribute, class=DefaultAttribute>: setValue(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,502 [ElementTrace]-[INFO] <id=53, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,502 [ElementTrace]-[INFO] <id=52, type=default-attribute, class=DefaultAttribute>: addValue([<id=11, type=null, class=Concept>])
+2024-05-22 20:45:24,502 [ElementTrace]-[INFO] New Element: <id=54, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,502 [ElementTrace]-[INFO] <id=54, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=52, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,502 [ElementTrace]-[INFO] <id=54, type=attribute-group, class=AttributeGroup>: putAttribute([<id=52, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] New Element: <id=55, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] New Element: <id=56, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=56, type=relation-group, class=RelationGroup>: addGroupElement([<id=55, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=8, type=null, class=Concept>: addRelation([<id=55, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=55, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=8, type=null, class=Concept>)
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] New Element: <id=57, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=57, type=relation-group, class=RelationGroup>: addGroupElement([<id=55, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=52, type=default-attribute, class=DefaultAttribute>: addRelation([<id=55, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=55, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=52, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,518 [ElementTrace]-[WARN] <id=8, type=null, class=Concept>fail to addAttribute([<id=52, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] New Element: <id=58, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=58, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=58, type=attribute-condition, class=AttributeCondition>: setDescription("数字")
+2024-05-22 20:45:24,518 [ElementTrace]-[WARN] <id=58, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] New Element: <id=59, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=59, type=condition-group, class=ConditionGroup>: addGroupElement([<id=58, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=8, type=null, class=Concept>: addCondition([<id=58, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,518 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] New Element: <id=60, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=60, type=concept-group, class=ConceptGroup>: addGroupElement([<id=4, type=null, class=Concept>, <id=9, type=null, class=Concept>])
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=14, type=null, class=Concept>: addSubConcept([<id=4, type=null, class=Concept>, <id=9, type=null, class=Concept>])
+2024-05-22 20:45:24,518 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,518 [ElementTrace]-[INFO] <id=14, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 9, position: 1,1)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=14, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 4, position: 2,1)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=14, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 4, position: 0,1)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=61, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=61, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=62, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=61, type=default-attribute, class=DefaultAttribute>: setValue(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=62, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=61, type=default-attribute, class=DefaultAttribute>: addValue([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=63, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=63, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=61, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=63, type=attribute-group, class=AttributeGroup>: putAttribute([<id=61, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=64, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=65, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=65, type=relation-group, class=RelationGroup>: addGroupElement([<id=64, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=14, type=null, class=Concept>: addRelation([<id=64, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=64, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=14, type=null, class=Concept>)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=66, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=66, type=relation-group, class=RelationGroup>: addGroupElement([<id=64, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=61, type=default-attribute, class=DefaultAttribute>: addRelation([<id=64, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=64, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=61, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,534 [ElementTrace]-[WARN] <id=14, type=null, class=Concept>fail to addAttribute([<id=61, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=67, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=67, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=67, type=attribute-condition, class=AttributeCondition>: setDescription("算术表达式")
+2024-05-22 20:45:24,534 [ElementTrace]-[WARN] <id=67, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=68, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=68, type=condition-group, class=ConditionGroup>: addGroupElement([<id=67, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=14, type=null, class=Concept>: addCondition([<id=67, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,534 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=69, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=69, type=concept-group, class=ConceptGroup>: addGroupElement([<id=5, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=4, type=null, class=Concept>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=15, type=null, class=Concept>: addSubConcept([<id=5, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=4, type=null, class=Concept>])
+2024-05-22 20:45:24,534 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=15, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 9, position: 1,1)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=15, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 5, position: 0,1)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=15, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 4, position: 2,1)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=70, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=70, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=71, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=70, type=default-attribute, class=DefaultAttribute>: setValue(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=71, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=70, type=default-attribute, class=DefaultAttribute>: addValue([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=72, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=72, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=70, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] <id=72, type=attribute-group, class=AttributeGroup>: putAttribute([<id=70, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,534 [ElementTrace]-[INFO] New Element: <id=73, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] New Element: <id=74, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=74, type=relation-group, class=RelationGroup>: addGroupElement([<id=73, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=15, type=null, class=Concept>: addRelation([<id=73, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=73, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=15, type=null, class=Concept>)
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] New Element: <id=75, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=75, type=relation-group, class=RelationGroup>: addGroupElement([<id=73, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=70, type=default-attribute, class=DefaultAttribute>: addRelation([<id=73, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=73, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=70, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,549 [ElementTrace]-[WARN] <id=15, type=null, class=Concept>fail to addAttribute([<id=70, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] New Element: <id=76, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=76, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=76, type=attribute-condition, class=AttributeCondition>: setDescription("算术表达式")
+2024-05-22 20:45:24,549 [ElementTrace]-[WARN] <id=76, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] New Element: <id=77, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=77, type=condition-group, class=ConditionGroup>: addGroupElement([<id=76, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=15, type=null, class=Concept>: addCondition([<id=76, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,549 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] New Element: <id=78, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=78, type=concept-group, class=ConceptGroup>: addGroupElement([<id=6, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=4, type=null, class=Concept>])
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=16, type=null, class=Concept>: addSubConcept([<id=6, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=4, type=null, class=Concept>])
+2024-05-22 20:45:24,549 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=16, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 9, position: 1,1)
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=16, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 4, position: 2,1)
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=16, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 6, position: 0,1)
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] New Element: <id=79, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=79, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] New Element: <id=80, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,549 [ElementTrace]-[INFO] <id=79, type=default-attribute, class=DefaultAttribute>: setValue(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=80, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=79, type=default-attribute, class=DefaultAttribute>: addValue([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=81, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=81, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=79, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=81, type=attribute-group, class=AttributeGroup>: putAttribute([<id=79, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=82, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=83, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=83, type=relation-group, class=RelationGroup>: addGroupElement([<id=82, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=16, type=null, class=Concept>: addRelation([<id=82, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=82, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=16, type=null, class=Concept>)
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=84, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=84, type=relation-group, class=RelationGroup>: addGroupElement([<id=82, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=79, type=default-attribute, class=DefaultAttribute>: addRelation([<id=82, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=82, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=79, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,565 [ElementTrace]-[WARN] <id=16, type=null, class=Concept>fail to addAttribute([<id=79, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=85, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=85, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=85, type=attribute-condition, class=AttributeCondition>: setDescription("算术表达式")
+2024-05-22 20:45:24,565 [ElementTrace]-[WARN] <id=85, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=86, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=86, type=condition-group, class=ConditionGroup>: addGroupElement([<id=85, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=16, type=null, class=Concept>: addCondition([<id=85, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,565 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=87, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=87, type=concept-group, class=ConceptGroup>: addGroupElement([<id=6, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=5, type=null, class=Concept>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=17, type=null, class=Concept>: addSubConcept([<id=6, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=5, type=null, class=Concept>])
+2024-05-22 20:45:24,565 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=17, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 9, position: 1,1)
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=17, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 5, position: 2,1)
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=17, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 6, position: 0,1)
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=88, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=88, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=89, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=88, type=default-attribute, class=DefaultAttribute>: setValue(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=89, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=88, type=default-attribute, class=DefaultAttribute>: addValue([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=90, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=90, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=88, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=90, type=attribute-group, class=AttributeGroup>: putAttribute([<id=88, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=91, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] New Element: <id=92, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=92, type=relation-group, class=RelationGroup>: addGroupElement([<id=91, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,565 [ElementTrace]-[INFO] <id=17, type=null, class=Concept>: addRelation([<id=91, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,596 [ElementTrace]-[INFO] <id=91, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=17, type=null, class=Concept>)
+2024-05-22 20:45:24,596 [ElementTrace]-[INFO] New Element: <id=93, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,596 [ElementTrace]-[INFO] <id=93, type=relation-group, class=RelationGroup>: addGroupElement([<id=91, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,596 [ElementTrace]-[INFO] <id=88, type=default-attribute, class=DefaultAttribute>: addRelation([<id=91, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,596 [ElementTrace]-[INFO] <id=91, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=88, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,596 [ElementTrace]-[WARN] <id=17, type=null, class=Concept>fail to addAttribute([<id=88, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,596 [ElementTrace]-[INFO] New Element: <id=94, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,596 [ElementTrace]-[INFO] <id=94, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,596 [ElementTrace]-[INFO] <id=94, type=attribute-condition, class=AttributeCondition>: setDescription("算术表达式")
+2024-05-22 20:45:24,596 [ElementTrace]-[WARN] <id=94, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,596 [ElementTrace]-[INFO] New Element: <id=95, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,719 [ElementTrace]-[INFO] <id=95, type=condition-group, class=ConditionGroup>: addGroupElement([<id=94, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,781 [ElementTrace]-[INFO] <id=17, type=null, class=Concept>: addCondition([<id=94, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,781 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,782 [ElementTrace]-[INFO] New Element: <id=96, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:24,782 [ElementTrace]-[INFO] <id=96, type=concept-group, class=ConceptGroup>: addGroupElement([<id=7, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=4, type=null, class=Concept>])
+2024-05-22 20:45:24,782 [ElementTrace]-[INFO] <id=18, type=null, class=Concept>: addSubConcept([<id=7, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=4, type=null, class=Concept>])
+2024-05-22 20:45:24,782 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,783 [ElementTrace]-[INFO] <id=18, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 9, position: 1,1)
+2024-05-22 20:45:24,783 [ElementTrace]-[INFO] <id=18, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 7, position: 0,1)
+2024-05-22 20:45:24,783 [ElementTrace]-[INFO] <id=18, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 4, position: 2,1)
+2024-05-22 20:45:24,783 [ElementTrace]-[INFO] New Element: <id=97, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,783 [ElementTrace]-[INFO] <id=97, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,783 [ElementTrace]-[INFO] New Element: <id=98, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,783 [ElementTrace]-[INFO] <id=97, type=default-attribute, class=DefaultAttribute>: setValue(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,784 [ElementTrace]-[INFO] <id=98, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,784 [ElementTrace]-[INFO] <id=97, type=default-attribute, class=DefaultAttribute>: addValue([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,784 [ElementTrace]-[INFO] New Element: <id=99, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,784 [ElementTrace]-[INFO] <id=99, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=97, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,784 [ElementTrace]-[INFO] <id=99, type=attribute-group, class=AttributeGroup>: putAttribute([<id=97, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,785 [ElementTrace]-[INFO] New Element: <id=100, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,785 [ElementTrace]-[INFO] New Element: <id=101, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,785 [ElementTrace]-[INFO] <id=101, type=relation-group, class=RelationGroup>: addGroupElement([<id=100, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,785 [ElementTrace]-[INFO] <id=18, type=null, class=Concept>: addRelation([<id=100, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,785 [ElementTrace]-[INFO] <id=100, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=18, type=null, class=Concept>)
+2024-05-22 20:45:24,785 [ElementTrace]-[INFO] New Element: <id=102, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,786 [ElementTrace]-[INFO] <id=102, type=relation-group, class=RelationGroup>: addGroupElement([<id=100, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,786 [ElementTrace]-[INFO] <id=97, type=default-attribute, class=DefaultAttribute>: addRelation([<id=100, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,786 [ElementTrace]-[INFO] <id=100, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=97, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,859 [ElementTrace]-[WARN] <id=18, type=null, class=Concept>fail to addAttribute([<id=97, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] New Element: <id=103, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=103, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=103, type=attribute-condition, class=AttributeCondition>: setDescription("算术表达式")
+2024-05-22 20:45:24,859 [ElementTrace]-[WARN] <id=103, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] New Element: <id=104, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=104, type=condition-group, class=ConditionGroup>: addGroupElement([<id=103, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=18, type=null, class=Concept>: addCondition([<id=103, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,859 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] New Element: <id=105, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=105, type=concept-group, class=ConceptGroup>: addGroupElement([<id=6, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=4, type=null, class=Concept>])
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=19, type=null, class=Concept>: addSubConcept([<id=6, type=null, class=Concept>, <id=9, type=null, class=Concept>, <id=4, type=null, class=Concept>])
+2024-05-22 20:45:24,859 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=19, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 9, position: 1,1)
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=19, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 9, position: 3,1)
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=19, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 4, position: 4,1)
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=19, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 4, position: 2,1)
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=19, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 6, position: 0,1)
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] New Element: <id=106, type=default-attribute, class=DefaultAttribute>
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=106, type=default-attribute, class=DefaultAttribute>: setKey("default")
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] New Element: <id=107, type=generic-element-group, class=GenericElementGroup>
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=106, type=default-attribute, class=DefaultAttribute>: setValue(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=107, type=generic-element-group, class=GenericElementGroup>: addGroupElement([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=106, type=default-attribute, class=DefaultAttribute>: addValue([<id=12, type=null, class=Concept>])
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] New Element: <id=108, type=attribute-group, class=AttributeGroup>
+2024-05-22 20:45:24,859 [ElementTrace]-[INFO] <id=108, type=attribute-group, class=AttributeGroup>: addGroupElement([<id=106, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,890 [ElementTrace]-[INFO] <id=108, type=attribute-group, class=AttributeGroup>: putAttribute([<id=106, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,890 [ElementTrace]-[INFO] New Element: <id=109, type=affiliation-relation, class=AffiliationRelation>
+2024-05-22 20:45:24,912 [ElementTrace]-[INFO] New Element: <id=110, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,912 [ElementTrace]-[INFO] <id=110, type=relation-group, class=RelationGroup>: addGroupElement([<id=109, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,912 [ElementTrace]-[INFO] <id=19, type=null, class=Concept>: addRelation([<id=109, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,912 [ElementTrace]-[INFO] <id=109, type=affiliation-relation, class=AffiliationRelation>: setMaster(<id=19, type=null, class=Concept>)
+2024-05-22 20:45:24,913 [ElementTrace]-[INFO] New Element: <id=111, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:24,913 [ElementTrace]-[INFO] <id=111, type=relation-group, class=RelationGroup>: addGroupElement([<id=109, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,913 [ElementTrace]-[INFO] <id=106, type=default-attribute, class=DefaultAttribute>: addRelation([<id=109, type=affiliation-relation, class=AffiliationRelation>])
+2024-05-22 20:45:24,913 [ElementTrace]-[INFO] <id=109, type=affiliation-relation, class=AffiliationRelation>: setSlave(<id=106, type=default-attribute, class=DefaultAttribute>)
+2024-05-22 20:45:24,913 [ElementTrace]-[WARN] <id=19, type=null, class=Concept>fail to addAttribute([<id=106, type=default-attribute, class=DefaultAttribute>])
+2024-05-22 20:45:24,913 [ElementTrace]-[INFO] New Element: <id=112, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,914 [ElementTrace]-[INFO] <id=112, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,914 [ElementTrace]-[INFO] <id=112, type=attribute-condition, class=AttributeCondition>: setDescription("算术表达式")
+2024-05-22 20:45:24,914 [ElementTrace]-[WARN] <id=112, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,914 [ElementTrace]-[INFO] New Element: <id=113, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,915 [ElementTrace]-[INFO] <id=113, type=condition-group, class=ConditionGroup>: addGroupElement([<id=112, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,915 [ElementTrace]-[INFO] <id=19, type=null, class=Concept>: addCondition([<id=112, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,915 [ElementTrace]-[INFO] New Element: <id=114, type=definition, class=Definition>
+2024-05-22 20:45:24,915 [ElementTrace]-[INFO] <id=114, type=definition, class=Definition>: setDescription("1+1=2")
+2024-05-22 20:45:24,915 [ElementTrace]-[INFO] New Element: <id=115, type=definition, class=Definition>
+2024-05-22 20:45:24,915 [ElementTrace]-[INFO] <id=115, type=definition, class=Definition>: setDescription("3+1=4")
+2024-05-22 20:45:24,916 [ElementTrace]-[INFO] New Element: <id=116, type=definition, class=Definition>
+2024-05-22 20:45:24,916 [ElementTrace]-[INFO] <id=116, type=definition, class=Definition>: setDescription("4+1=5")
+2024-05-22 20:45:24,916 [ElementTrace]-[INFO] New Element: <id=117, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:24,916 [ElementTrace]-[INFO] <id=117, type=concept-group, class=ConceptGroup>: addGroupElement([<id=14, type=null, class=Concept>, <id=10, type=null, class=Concept>, <id=5, type=null, class=Concept>])
+2024-05-22 20:45:24,917 [ElementTrace]-[INFO] <id=114, type=definition, class=Definition>: addConcept([<id=14, type=null, class=Concept>, <id=10, type=null, class=Concept>, <id=5, type=null, class=Concept>])
+2024-05-22 20:45:24,917 [ElementTrace]-[INFO] <id=114, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 3,1)
+2024-05-22 20:45:24,917 [ElementTrace]-[INFO] <id=114, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 5, position: 4,1)
+2024-05-22 20:45:24,917 [ElementTrace]-[INFO] <id=114, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 14, position: 0,3)
+2024-05-22 20:45:24,918 [ElementTrace]-[INFO] New Element: <id=118, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:24,984 [ElementTrace]-[INFO] <id=118, type=concept-group, class=ConceptGroup>: addGroupElement([<id=16, type=null, class=Concept>, <id=10, type=null, class=Concept>, <id=7, type=null, class=Concept>])
+2024-05-22 20:45:24,984 [ElementTrace]-[INFO] <id=115, type=definition, class=Definition>: addConcept([<id=16, type=null, class=Concept>, <id=10, type=null, class=Concept>, <id=7, type=null, class=Concept>])
+2024-05-22 20:45:24,986 [ElementTrace]-[INFO] <id=115, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 3,1)
+2024-05-22 20:45:24,986 [ElementTrace]-[INFO] <id=115, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 16, position: 0,3)
+2024-05-22 20:45:24,986 [ElementTrace]-[INFO] <id=115, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 7, position: 4,1)
+2024-05-22 20:45:24,987 [ElementTrace]-[INFO] New Element: <id=119, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:24,987 [ElementTrace]-[INFO] <id=119, type=concept-group, class=ConceptGroup>: addGroupElement([<id=18, type=null, class=Concept>, <id=10, type=null, class=Concept>, <id=8, type=null, class=Concept>])
+2024-05-22 20:45:24,988 [ElementTrace]-[INFO] <id=116, type=definition, class=Definition>: addConcept([<id=18, type=null, class=Concept>, <id=10, type=null, class=Concept>, <id=8, type=null, class=Concept>])
+2024-05-22 20:45:24,988 [ElementTrace]-[INFO] <id=116, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 3,1)
+2024-05-22 20:45:24,988 [ElementTrace]-[INFO] <id=116, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 18, position: 0,3)
+2024-05-22 20:45:24,988 [ElementTrace]-[INFO] <id=116, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 8, position: 4,1)
+2024-05-22 20:45:24,989 [ElementTrace]-[INFO] New Element: <id=120, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,989 [ElementTrace]-[INFO] <id=120, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,990 [ElementTrace]-[INFO] <id=120, type=attribute-condition, class=AttributeCondition>: setDescription("数字")
+2024-05-22 20:45:24,990 [ElementTrace]-[WARN] <id=120, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,990 [ElementTrace]-[INFO] New Element: <id=121, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:24,990 [ElementTrace]-[INFO] <id=121, type=condition-group, class=ConditionGroup>: addGroupElement([<id=120, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,991 [ElementTrace]-[INFO] New Element: <id=122, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,991 [ElementTrace]-[INFO] <id=122, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,992 [ElementTrace]-[INFO] <id=122, type=attribute-condition, class=AttributeCondition>: setDescription("数字")
+2024-05-22 20:45:24,992 [ElementTrace]-[WARN] <id=122, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=11, type=null, class=Concept>)
+2024-05-22 20:45:24,992 [ElementTrace]-[INFO] New Element: <id=123, type=attribute-condition, class=AttributeCondition>
+2024-05-22 20:45:24,993 [ElementTrace]-[INFO] <id=123, type=attribute-condition, class=AttributeCondition>: setAttributeElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,993 [ElementTrace]-[INFO] <id=123, type=attribute-condition, class=AttributeCondition>: setDescription("算术表达式")
+2024-05-22 20:45:24,993 [ElementTrace]-[WARN] <id=123, type=attribute-condition, class=AttributeCondition>fail to setDescriptionElement(<id=12, type=null, class=Concept>)
+2024-05-22 20:45:24,994 [ElementTrace]-[INFO] New Element: <id=124, type=or-condition-group, class=OrConditionGroup>
+2024-05-22 20:45:24,994 [ElementTrace]-[INFO] <id=124, type=or-condition-group, class=OrConditionGroup>: addGroupElement([<id=122, type=attribute-condition, class=AttributeCondition>, <id=123, type=attribute-condition, class=AttributeCondition>])
+2024-05-22 20:45:24,995 [ElementTrace]-[INFO] New Element: <id=125, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=125, type=condition-group, class=ConditionGroup>: addGroupElement([<id=2, type=dynamic-condition, class=DynamicCondition>])
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] New Element: <id=126, type=null, class=Concept>
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=126, type=null, class=Concept>: setDescription("<$a>")
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] New Element: <id=127, type=null, class=Concept>
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=127, type=null, class=Concept>: setDescription("<$1>")
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] New Element: <id=128, type=null, class=Concept>
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=128, type=null, class=Concept>: setDescription("<$a>+<$b>")
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] New Element: <id=129, type=null, class=Concept>
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=129, type=null, class=Concept>: setDescription("<$1>+<$2>")
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] New Element: <id=130, type=null, class=Concept>
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=130, type=null, class=Concept>: setDescription("计算<$a>+<$b>")
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=126, type=null, class=Concept>: setNetDynamicConditions([<id=121, type=condition-group, class=ConditionGroup>])
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=127, type=null, class=Concept>: setNetDynamicConditions([<id=124, type=or-condition-group, class=OrConditionGroup>])
+2024-05-22 20:45:25,118 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] New Element: <id=131, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=131, type=concept-group, class=ConceptGroup>: addGroupElement([<id=9, type=null, class=Concept>, <id=126, type=null, class=Concept>])
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=128, type=null, class=Concept>: addSubConcept([<id=9, type=null, class=Concept>, <id=126, type=null, class=Concept>])
+2024-05-22 20:45:25,118 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=128, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 126, position: 0,4)
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=128, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 9, position: 4,1)
+2024-05-22 20:45:25,118 [ElementTrace]-[WARN] <id=128, type=null, class=Concept>fail to setNetDynamicConditions([<id=121, type=condition-group, class=ConditionGroup>, <id=121, type=condition-group, class=ConditionGroup>])
+2024-05-22 20:45:25,118 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] New Element: <id=132, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=132, type=concept-group, class=ConceptGroup>: addGroupElement([<id=9, type=null, class=Concept>, <id=127, type=null, class=Concept>])
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=129, type=null, class=Concept>: addSubConcept([<id=9, type=null, class=Concept>, <id=127, type=null, class=Concept>])
+2024-05-22 20:45:25,118 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=129, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 127, position: 0,4)
+2024-05-22 20:45:25,118 [ElementTrace]-[INFO] <id=129, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 9, position: 4,1)
+2024-05-22 20:45:25,118 [ElementTrace]-[WARN] <id=129, type=null, class=Concept>fail to setNetDynamicConditions([<id=124, type=or-condition-group, class=OrConditionGroup>, <id=124, type=or-condition-group, class=OrConditionGroup>])
+2024-05-22 20:45:25,118 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] New Element: <id=133, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=133, type=concept-group, class=ConceptGroup>: addGroupElement([<id=13, type=null, class=Concept>, <id=126, type=null, class=Concept>, <id=128, type=null, class=Concept>])
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=130, type=null, class=Concept>: addSubConcept([<id=13, type=null, class=Concept>, <id=126, type=null, class=Concept>, <id=128, type=null, class=Concept>])
+2024-05-22 20:45:25,213 [CollectionUtil]-[WARN] Fail to generate new instance of the Class(class java.util.Arrays$ArrayList) of the list, replacing it with the default List type.
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=130, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 126, position: 2,4)
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=130, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 128, position: 2,9)
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=130, type=null, class=Concept>: putSubElementPositionDelegate(subElementId: 13, position: 0,2)
+2024-05-22 20:45:25,213 [ElementTrace]-[WARN] <id=130, type=null, class=Concept>fail to setNetDynamicConditions([<id=121, type=condition-group, class=ConditionGroup>, <id=121, type=condition-group, class=ConditionGroup>])
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] New Element: <id=134, type=definition, class=Definition>
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=134, type=definition, class=Definition>: setDescription("<$a>+<$b>=<$c>")
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] New Element: <id=135, type=definition, class=Definition>
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=135, type=definition, class=Definition>: setDescription("<$1>=<$2>")
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] New Element: <id=136, type=definition, class=Definition>
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=136, type=definition, class=Definition>: setDescription("<$2>=<$1>")
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] New Element: <id=137, type=definition, class=Definition>
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=137, type=definition, class=Definition>: setDescription("<$2>=<$3>")
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] New Element: <id=138, type=definition, class=Definition>
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=138, type=definition, class=Definition>: setDescription("<$1>=<$3>")
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] New Element: <id=139, type=definition, class=Definition>
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=139, type=definition, class=Definition>: setDescription("<$1>+<$3>=<$2>+<$3>")
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] New Element: <id=140, type=definition, class=Definition>
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=140, type=definition, class=Definition>: setDescription("<$3>+<$1>=<$3>+<$2>")
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] New Element: <id=141, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=141, type=concept-group, class=ConceptGroup>: addGroupElement([<id=128, type=null, class=Concept>, <id=10, type=null, class=Concept>, <id=126, type=null, class=Concept>])
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=134, type=definition, class=Definition>: addConcept([<id=128, type=null, class=Concept>, <id=10, type=null, class=Concept>, <id=126, type=null, class=Concept>])
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=134, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 126, position: 0,4)
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=134, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 128, position: 0,9)
+2024-05-22 20:45:25,213 [ElementTrace]-[INFO] <id=134, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 9,1)
+2024-05-22 20:45:25,213 [ElementTrace]-[WARN] <id=134, type=definition, class=Definition>fail to setNetDynamicConditions([<id=121, type=condition-group, class=ConditionGroup>, <id=121, type=condition-group, class=ConditionGroup>, <id=121, type=condition-group, class=ConditionGroup>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] New Element: <id=142, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=142, type=concept-group, class=ConceptGroup>: addGroupElement([<id=127, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=135, type=definition, class=Definition>: addConcept([<id=127, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=135, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 4,1)
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=135, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 127, position: 0,4)
+2024-05-22 20:45:25,244 [ElementTrace]-[WARN] <id=135, type=definition, class=Definition>fail to setNetDynamicConditions([<id=124, type=or-condition-group, class=OrConditionGroup>, <id=124, type=or-condition-group, class=OrConditionGroup>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] New Element: <id=143, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=143, type=concept-group, class=ConceptGroup>: addGroupElement([<id=127, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=136, type=definition, class=Definition>: addConcept([<id=127, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=136, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 4,1)
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=136, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 127, position: 5,4)
+2024-05-22 20:45:25,244 [ElementTrace]-[WARN] <id=136, type=definition, class=Definition>fail to setNetDynamicConditions([<id=124, type=or-condition-group, class=OrConditionGroup>, <id=124, type=or-condition-group, class=OrConditionGroup>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] New Element: <id=144, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=144, type=concept-group, class=ConceptGroup>: addGroupElement([<id=127, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=137, type=definition, class=Definition>: addConcept([<id=127, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=137, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 4,1)
+2024-05-22 20:45:25,244 [ElementTrace]-[WARN] <id=137, type=definition, class=Definition>fail to setNetDynamicConditions([<id=124, type=or-condition-group, class=OrConditionGroup>, <id=124, type=or-condition-group, class=OrConditionGroup>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] New Element: <id=145, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=145, type=concept-group, class=ConceptGroup>: addGroupElement([<id=127, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=138, type=definition, class=Definition>: addConcept([<id=127, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=138, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 4,1)
+2024-05-22 20:45:25,244 [ElementTrace]-[INFO] <id=138, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 127, position: 0,4)
+2024-05-22 20:45:25,245 [ElementTrace]-[WARN] <id=138, type=definition, class=Definition>fail to setNetDynamicConditions([<id=124, type=or-condition-group, class=OrConditionGroup>, <id=124, type=or-condition-group, class=OrConditionGroup>])
+2024-05-22 20:45:25,246 [ElementTrace]-[INFO] New Element: <id=146, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,277 [ElementTrace]-[INFO] <id=146, type=concept-group, class=ConceptGroup>: addGroupElement([<id=129, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,277 [ElementTrace]-[INFO] <id=139, type=definition, class=Definition>: addConcept([<id=129, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,277 [ElementTrace]-[INFO] <id=139, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 9,1)
+2024-05-22 20:45:25,277 [ElementTrace]-[WARN] <id=139, type=definition, class=Definition>fail to setNetDynamicConditions([<id=124, type=or-condition-group, class=OrConditionGroup>, <id=124, type=or-condition-group, class=OrConditionGroup>, <id=124, type=or-condition-group, class=OrConditionGroup>])
+2024-05-22 20:45:25,277 [ElementTrace]-[INFO] New Element: <id=147, type=concept-group, class=ConceptGroup>
+2024-05-22 20:45:25,277 [ElementTrace]-[INFO] <id=147, type=concept-group, class=ConceptGroup>: addGroupElement([<id=129, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,277 [ElementTrace]-[INFO] <id=140, type=definition, class=Definition>: addConcept([<id=129, type=null, class=Concept>, <id=10, type=null, class=Concept>])
+2024-05-22 20:45:25,277 [ElementTrace]-[INFO] <id=140, type=definition, class=Definition>: putSubElementPositionDelegate(subElementId: 10, position: 9,1)
+2024-05-22 20:45:25,277 [ElementTrace]-[WARN] <id=140, type=definition, class=Definition>fail to setNetDynamicConditions([<id=124, type=or-condition-group, class=OrConditionGroup>, <id=124, type=or-condition-group, class=OrConditionGroup>, <id=124, type=or-condition-group, class=OrConditionGroup>])
+2024-05-22 20:45:25,277 [ElementTrace]-[INFO] <id=148, type=definition, class=Definition>: setDescription("<$a>+<$b>=<#c>")
+2024-05-22 20:45:25,277 [ElementTrace]-[INFO] New Element: <id=149, type=hypothetical-condition, class=HypotheticalCondition>
+2024-05-22 20:45:25,292 [ElementTrace]-[INFO] <id=149, type=hypothetical-condition, class=HypotheticalCondition>: setAntecedent(<id=135, type=definition, class=Definition>)
+2024-05-22 20:45:25,292 [ElementTrace]-[INFO] <id=149, type=hypothetical-condition, class=HypotheticalCondition>: setDescription("<$1>=<$2>")
+2024-05-22 20:45:25,292 [ElementTrace]-[WARN] <id=149, type=hypothetical-condition, class=HypotheticalCondition>fail to setDescriptionElement(<id=135, type=definition, class=Definition>)
+2024-05-22 20:45:25,292 [ElementTrace]-[INFO] New Element: <id=150, type=hypothetical-proposition, class=HypotheticalProposition>
+2024-05-22 20:45:25,292 [ElementTrace]-[INFO] New Element: <id=151, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:25,292 [ElementTrace]-[INFO] <id=151, type=condition-group, class=ConditionGroup>: addGroupElement([<id=149, type=hypothetical-condition, class=HypotheticalCondition>])
+2024-05-22 20:45:25,292 [ElementTrace]-[INFO] <id=150, type=hypothetical-proposition, class=HypotheticalProposition>: addAntecedent([<id=149, type=hypothetical-condition, class=HypotheticalCondition>])
+2024-05-22 20:45:25,292 [ElementTrace]-[INFO] New Element: <id=152, type=judged-statement-group, class=JudgedStatementGroup>
+2024-05-22 20:45:25,292 [ElementTrace]-[INFO] <id=152, type=judged-statement-group, class=JudgedStatementGroup>: addGroupElement([<id=136, type=definition, class=Definition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=150, type=hypothetical-proposition, class=HypotheticalProposition>: addConsequent([<id=136, type=definition, class=Definition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=153, type=hypothetical-condition, class=HypotheticalCondition>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=153, type=hypothetical-condition, class=HypotheticalCondition>: setAntecedent(<id=135, type=definition, class=Definition>)
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=153, type=hypothetical-condition, class=HypotheticalCondition>: setDescription("<$1>=<$2>")
+2024-05-22 20:45:25,308 [ElementTrace]-[WARN] <id=153, type=hypothetical-condition, class=HypotheticalCondition>fail to setDescriptionElement(<id=135, type=definition, class=Definition>)
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=154, type=hypothetical-proposition, class=HypotheticalProposition>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=155, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=155, type=condition-group, class=ConditionGroup>: addGroupElement([<id=153, type=hypothetical-condition, class=HypotheticalCondition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=154, type=hypothetical-proposition, class=HypotheticalProposition>: addAntecedent([<id=153, type=hypothetical-condition, class=HypotheticalCondition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=156, type=judged-statement-group, class=JudgedStatementGroup>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=156, type=judged-statement-group, class=JudgedStatementGroup>: addGroupElement([<id=140, type=definition, class=Definition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=154, type=hypothetical-proposition, class=HypotheticalProposition>: addConsequent([<id=140, type=definition, class=Definition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=157, type=hypothetical-condition, class=HypotheticalCondition>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=157, type=hypothetical-condition, class=HypotheticalCondition>: setAntecedent(<id=135, type=definition, class=Definition>)
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=157, type=hypothetical-condition, class=HypotheticalCondition>: setDescription("<$1>=<$2>")
+2024-05-22 20:45:25,308 [ElementTrace]-[WARN] <id=157, type=hypothetical-condition, class=HypotheticalCondition>fail to setDescriptionElement(<id=135, type=definition, class=Definition>)
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=158, type=hypothetical-proposition, class=HypotheticalProposition>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=159, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=159, type=condition-group, class=ConditionGroup>: addGroupElement([<id=157, type=hypothetical-condition, class=HypotheticalCondition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=158, type=hypothetical-proposition, class=HypotheticalProposition>: addAntecedent([<id=157, type=hypothetical-condition, class=HypotheticalCondition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=160, type=judged-statement-group, class=JudgedStatementGroup>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=160, type=judged-statement-group, class=JudgedStatementGroup>: addGroupElement([<id=139, type=definition, class=Definition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=158, type=hypothetical-proposition, class=HypotheticalProposition>: addConsequent([<id=139, type=definition, class=Definition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=161, type=hypothetical-condition, class=HypotheticalCondition>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=161, type=hypothetical-condition, class=HypotheticalCondition>: setAntecedent(<id=135, type=definition, class=Definition>)
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=161, type=hypothetical-condition, class=HypotheticalCondition>: setDescription("<$1>=<$2>")
+2024-05-22 20:45:25,308 [ElementTrace]-[WARN] <id=161, type=hypothetical-condition, class=HypotheticalCondition>fail to setDescriptionElement(<id=135, type=definition, class=Definition>)
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=162, type=hypothetical-condition, class=HypotheticalCondition>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=162, type=hypothetical-condition, class=HypotheticalCondition>: setAntecedent(<id=137, type=definition, class=Definition>)
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=162, type=hypothetical-condition, class=HypotheticalCondition>: setDescription("<$2>=<$3>")
+2024-05-22 20:45:25,308 [ElementTrace]-[WARN] <id=162, type=hypothetical-condition, class=HypotheticalCondition>fail to setDescriptionElement(<id=137, type=definition, class=Definition>)
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=163, type=hypothetical-proposition, class=HypotheticalProposition>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=164, type=condition-group, class=ConditionGroup>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=164, type=condition-group, class=ConditionGroup>: addGroupElement([<id=161, type=hypothetical-condition, class=HypotheticalCondition>, <id=162, type=hypothetical-condition, class=HypotheticalCondition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=163, type=hypothetical-proposition, class=HypotheticalProposition>: addAntecedent([<id=161, type=hypothetical-condition, class=HypotheticalCondition>, <id=162, type=hypothetical-condition, class=HypotheticalCondition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] New Element: <id=165, type=judged-statement-group, class=JudgedStatementGroup>
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=165, type=judged-statement-group, class=JudgedStatementGroup>: addGroupElement([<id=138, type=definition, class=Definition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=163, type=hypothetical-proposition, class=HypotheticalProposition>: addConsequent([<id=138, type=definition, class=Definition>])
+2024-05-22 20:45:25,308 [ElementTrace]-[INFO] <id=150, type=hypothetical-proposition, class=HypotheticalProposition>: setWholeDynamicCondition(<id=125, type=condition-group, class=ConditionGroup>)
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] <id=154, type=hypothetical-proposition, class=HypotheticalProposition>: setWholeDynamicCondition(<id=125, type=condition-group, class=ConditionGroup>)
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] <id=158, type=hypothetical-proposition, class=HypotheticalProposition>: setWholeDynamicCondition(<id=125, type=condition-group, class=ConditionGroup>)
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] <id=163, type=hypothetical-proposition, class=HypotheticalProposition>: setWholeDynamicCondition(<id=125, type=condition-group, class=ConditionGroup>)
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] New Element: <id=166, type=equivalence-relation, class=EquivalenceRelation>
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] New Element: <id=167, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] <id=167, type=relation-group, class=RelationGroup>: addGroupElement([<id=166, type=equivalence-relation, class=EquivalenceRelation>])
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] <id=130, type=null, class=Concept>: addRelation([<id=166, type=equivalence-relation, class=EquivalenceRelation>])
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] <id=166, type=equivalence-relation, class=EquivalenceRelation>: setPrimaryElement(<id=130, type=null, class=Concept>)
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] New Element: <id=168, type=relation-group, class=RelationGroup>
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] <id=168, type=relation-group, class=RelationGroup>: addGroupElement([<id=166, type=equivalence-relation, class=EquivalenceRelation>])
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] <id=148, type=definition, class=Definition>: addRelation([<id=166, type=equivalence-relation, class=EquivalenceRelation>])
+2024-05-22 20:45:25,324 [ElementTrace]-[INFO] <id=166, type=equivalence-relation, class=EquivalenceRelation>: setSecondaryElement(<id=148, type=definition, class=Definition>)
+2024-05-22 20:45:25,327 [ElementTrace]-[INFO] New Element: <id=169, type=null, class=Statement>
+2024-05-22 20:45:25,329 [ElementTrace]-[INFO] <id=169, type=null, class=Statement>: setDescription("3+2=<#>")
+2024-05-22 20:45:25,334 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:25,334 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:25,348 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:25,349 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=8, type=null, class=Concept, description="5">] ==========
+2024-05-22 20:45:25,363 [ElementTrace]-[INFO] New Element: <id=170, type=null, class=JudgedStatement>
+2024-05-22 20:45:25,363 [ElementTrace]-[INFO] <id=170, type=null, class=JudgedStatement>: setDescription("4+1+5=5+5")
+2024-05-22 20:45:25,364 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=170, type=null, class=JudgedStatement, description="4+1+5=5+5">] ==========
+2024-05-22 20:45:25,364 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:25,366 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:25,366 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:25,370 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:25,370 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:25,574 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:25,622 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:25,622 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=115, type=definition, class=Definition, description="3+1=4">, <id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:25,622 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:25,622 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: null ==========
+2024-05-22 20:45:25,622 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:25,622 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:25,622 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:25,770 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:25,785 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=114, type=definition, class=Definition, description="1+1=2">, <id=115, type=definition, class=Definition, description="3+1=4">] ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: null ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=115, type=definition, class=Definition, description="3+1=4">] ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=17, type=null, class=Concept, description="3+2">] ==========
+2024-05-22 20:45:25,801 [ElementTrace]-[INFO] New Element: <id=171, type=null, class=JudgedStatement>
+2024-05-22 20:45:25,801 [ElementTrace]-[INFO] <id=171, type=null, class=JudgedStatement>: setDescription("3+2+3+1=3+2+4")
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=171, type=null, class=JudgedStatement, description="3+2+3+1=3+2+4">] ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:25,801 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:25,801 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=115, type=definition, class=Definition, description="3+1=4">] ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=18, type=null, class=Concept, description="4+1">] ==========
+2024-05-22 20:45:25,801 [ElementTrace]-[INFO] New Element: <id=172, type=null, class=JudgedStatement>
+2024-05-22 20:45:25,801 [ElementTrace]-[INFO] <id=172, type=null, class=JudgedStatement>: setDescription("4+1+3+1=4+1+4")
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=172, type=null, class=JudgedStatement, description="4+1+3+1=4+1+4">] ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:25,801 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:25,801 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:25,801 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:25,879 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=114, type=definition, class=Definition, description="1+1=2">, <id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: null ==========
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=114, type=definition, class=Definition, description="1+1=2">] ==========
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:25,910 [ElementTrace]-[INFO] New Element: <id=173, type=null, class=JudgedStatement>
+2024-05-22 20:45:25,910 [ElementTrace]-[INFO] <id=173, type=null, class=JudgedStatement>: setDescription("2=1+1")
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=173, type=null, class=JudgedStatement, description="2=1+1">] ==========
+2024-05-22 20:45:25,910 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:25,926 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:25,926 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:25,926 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:25,926 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:25,976 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:26,012 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=116, type=definition, class=Definition, description="4+1=5">, <id=114, type=definition, class=Definition, description="1+1=2">] ==========
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: null ==========
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=115, type=definition, class=Definition, description="3+1=4">] ==========
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=16, type=null, class=Concept, description="3+1">] ==========
+2024-05-22 20:45:26,027 [ElementTrace]-[INFO] New Element: <id=174, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,027 [ElementTrace]-[INFO] <id=174, type=null, class=JudgedStatement>: setDescription("3+1+3+1=4+3+1")
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=174, type=null, class=JudgedStatement, description="3+1+3+1=4+3+1">] ==========
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,027 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,027 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:26,027 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:26,103 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=173, type=null, class=JudgedStatement, description="2=1+1">, <id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: null ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=6, type=null, class=Concept, description="3">] ==========
+2024-05-22 20:45:26,135 [ElementTrace]-[INFO] New Element: <id=175, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,135 [ElementTrace]-[INFO] <id=175, type=null, class=JudgedStatement>: setDescription("3+4+1=3+5")
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=175, type=null, class=JudgedStatement, description="3+4+1=3+5">] ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,135 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,135 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=173, type=null, class=JudgedStatement, description="2=1+1">] ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=114, type=definition, class=Definition, description="1+1=2">] ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,135 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,135 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:26,135 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:26,197 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=173, type=null, class=JudgedStatement, description="2=1+1">, <id=114, type=definition, class=Definition, description="1+1=2">] ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,228 [ElementTrace]-[INFO] New Element: <id=176, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,228 [ElementTrace]-[INFO] <id=176, type=null, class=JudgedStatement>: setDescription("2=2")
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=176, type=null, class=JudgedStatement, description="2=2">] ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,228 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,228 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,228 [ElementTrace]-[INFO] New Element: <id=177, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,228 [ElementTrace]-[INFO] <id=177, type=null, class=JudgedStatement>: setDescription("5=4+1")
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=177, type=null, class=JudgedStatement, description="5=4+1">] ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,228 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,228 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=115, type=definition, class=Definition, description="3+1=4">] ==========
+2024-05-22 20:45:26,228 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=18, type=null, class=Concept, description="4+1">] ==========
+2024-05-22 20:45:26,244 [ElementTrace]-[INFO] New Element: <id=178, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,244 [ElementTrace]-[INFO] <id=178, type=null, class=JudgedStatement>: setDescription("3+1+4+1=4+4+1")
+2024-05-22 20:45:26,244 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=178, type=null, class=JudgedStatement, description="3+1+4+1=4+4+1">] ==========
+2024-05-22 20:45:26,244 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,244 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,244 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,244 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:26,244 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:26,306 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=177, type=null, class=JudgedStatement, description="5=4+1">, <id=173, type=null, class=JudgedStatement, description="2=1+1">] ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: null ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=17, type=null, class=Concept, description="3+2">] ==========
+2024-05-22 20:45:26,353 [ElementTrace]-[INFO] New Element: <id=179, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,353 [ElementTrace]-[INFO] <id=179, type=null, class=JudgedStatement>: setDescription("3+2+4+1=3+2+5")
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=179, type=null, class=JudgedStatement, description="3+2+4+1=3+2+5">] ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,353 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,353 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=115, type=definition, class=Definition, description="3+1=4">] ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,353 [ElementTrace]-[INFO] New Element: <id=180, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,353 [ElementTrace]-[INFO] <id=180, type=null, class=JudgedStatement>: setDescription("4=3+1")
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=180, type=null, class=JudgedStatement, description="4=3+1">] ==========
+2024-05-22 20:45:26,353 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,369 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,369 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=114, type=definition, class=Definition, description="1+1=2">] ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=6, type=null, class=Concept, description="3">] ==========
+2024-05-22 20:45:26,369 [ElementTrace]-[INFO] New Element: <id=181, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,369 [ElementTrace]-[INFO] <id=181, type=null, class=JudgedStatement>: setDescription("3+1+1=3+2")
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=181, type=null, class=JudgedStatement, description="3+1+1=3+2">] ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,369 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,369 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=180, type=null, class=JudgedStatement, description="4=3+1">] ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=15, type=null, class=Concept, description="2+1">] ==========
+2024-05-22 20:45:26,369 [ElementTrace]-[INFO] New Element: <id=182, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,369 [ElementTrace]-[INFO] <id=182, type=null, class=JudgedStatement>: setDescription("2+1+4=2+1+3+1")
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=182, type=null, class=JudgedStatement, description="2+1+4=2+1+3+1">] ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,369 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,369 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=173, type=null, class=JudgedStatement, description="2=1+1">] ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=6, type=null, class=Concept, description="3">] ==========
+2024-05-22 20:45:26,369 [ElementTrace]-[INFO] New Element: <id=183, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,369 [ElementTrace]-[INFO] <id=183, type=null, class=JudgedStatement>: setDescription("2+3=1+1+3")
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=183, type=null, class=JudgedStatement, description="2+3=1+1+3">] ==========
+2024-05-22 20:45:26,369 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,384 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,384 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=114, type=definition, class=Definition, description="1+1=2">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=16, type=null, class=Concept, description="3+1">] ==========
+2024-05-22 20:45:26,384 [ElementTrace]-[INFO] New Element: <id=184, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,384 [ElementTrace]-[INFO] <id=184, type=null, class=JudgedStatement>: setDescription("3+1+1+1=3+1+2")
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=184, type=null, class=JudgedStatement, description="3+1+1+1=3+1+2">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,384 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,384 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=180, type=null, class=JudgedStatement, description="4=3+1">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=115, type=definition, class=Definition, description="3+1=4">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,384 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,384 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=177, type=null, class=JudgedStatement, description="5=4+1">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=18, type=null, class=Concept, description="4+1">] ==========
+2024-05-22 20:45:26,384 [ElementTrace]-[INFO] New Element: <id=185, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,384 [ElementTrace]-[INFO] <id=185, type=null, class=JudgedStatement>: setDescription("5+4+1=4+1+4+1")
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=185, type=null, class=JudgedStatement, description="5+4+1=4+1+4+1">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,384 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,384 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=176, type=null, class=JudgedStatement, description="2=2">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=176, type=null, class=JudgedStatement, description="2=2">] ==========
+2024-05-22 20:45:26,384 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,400 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,400 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,400 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,400 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,400 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=180, type=null, class=JudgedStatement, description="4=3+1">] ==========
+2024-05-22 20:45:26,400 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=5, type=null, class=Concept, description="2">] ==========
+2024-05-22 20:45:26,400 [ElementTrace]-[INFO] New Element: <id=186, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,400 [ElementTrace]-[INFO] <id=186, type=null, class=JudgedStatement>: setDescription("4+2=3+1+2")
+2024-05-22 20:45:26,400 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=186, type=null, class=JudgedStatement, description="4+2=3+1+2">] ==========
+2024-05-22 20:45:26,400 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,400 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,400 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,400 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:26,400 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:26,447 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=177, type=null, class=JudgedStatement, description="5=4+1">, <id=176, type=null, class=JudgedStatement, description="2=2">] ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=176, type=null, class=JudgedStatement, description="2=2">] ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,478 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,478 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=177, type=null, class=JudgedStatement, description="5=4+1">] ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,478 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,478 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=181, type=null, class=JudgedStatement, description="3+1+1=3+2">] ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=4, type=null, class=Concept, description="1">] ==========
+2024-05-22 20:45:26,478 [ElementTrace]-[INFO] New Element: <id=187, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,478 [ElementTrace]-[INFO] <id=187, type=null, class=JudgedStatement>: setDescription("3+1+1+1=3+2+1")
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=187, type=null, class=JudgedStatement, description="3+1+1+1=3+2+1">] ==========
+2024-05-22 20:45:26,478 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,493 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,493 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,493 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,493 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,493 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=176, type=null, class=JudgedStatement, description="2=2">] ==========
+2024-05-22 20:45:26,493 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=7, type=null, class=Concept, description="4">] ==========
+2024-05-22 20:45:26,493 [ElementTrace]-[INFO] New Element: <id=188, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,493 [ElementTrace]-[INFO] <id=188, type=null, class=JudgedStatement>: setDescription("2+4=2+4")
+2024-05-22 20:45:26,493 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=188, type=null, class=JudgedStatement, description="2+4=2+4">] ==========
+2024-05-22 20:45:26,493 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,493 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,493 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,493 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:26,493 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:26,556 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=181, type=null, class=JudgedStatement, description="3+1+1=3+2">, <id=180, type=null, class=JudgedStatement, description="4=3+1">] ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: null ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=177, type=null, class=JudgedStatement, description="5=4+1">] ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=16, type=null, class=Concept, description="3+1">] ==========
+2024-05-22 20:45:26,571 [ElementTrace]-[INFO] New Element: <id=189, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,571 [ElementTrace]-[INFO] <id=189, type=null, class=JudgedStatement>: setDescription("5+3+1=4+1+3+1")
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=189, type=null, class=JudgedStatement, description="5+3+1=4+1+3+1">] ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,571 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,571 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=115, type=definition, class=Definition, description="3+1=4">] ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=15, type=null, class=Concept, description="2+1">] ==========
+2024-05-22 20:45:26,571 [ElementTrace]-[INFO] New Element: <id=190, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,571 [ElementTrace]-[INFO] <id=190, type=null, class=JudgedStatement>: setDescription("3+1+2+1=4+2+1")
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=190, type=null, class=JudgedStatement, description="3+1+2+1=4+2+1">] ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,571 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,571 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:26,571 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:26,618 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=177, type=null, class=JudgedStatement, description="5=4+1">, <id=180, type=null, class=JudgedStatement, description="4=3+1">] ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: null ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=181, type=null, class=JudgedStatement, description="3+1+1=3+2">] ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,649 [ElementTrace]-[INFO] New Element: <id=191, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,649 [ElementTrace]-[INFO] <id=191, type=null, class=JudgedStatement>: setDescription("3+2=3+1+1")
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=191, type=null, class=JudgedStatement, description="3+2=3+1+1">] ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,649 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,649 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,649 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:26,649 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,649 [ElementTrace]-[INFO] New Element: <id=192, type=information-element-group, class=InformationElementGroup>
+2024-05-22 20:45:26,649 [ElementTrace]-[INFO] <id=192, type=information-element-group, class=InformationElementGroup>: addGroupElement([<id=6, type=null, class=Concept>, <id=19, type=null, class=Concept>, <id=16, type=null, class=Concept>])
+2024-05-22 20:45:26,649 [ElementTrace]-[INFO] <id=191, type=null, class=JudgedStatement>: addSubInformationElement([<id=6, type=null, class=Concept>, <id=19, type=null, class=Concept>, <id=16, type=null, class=Concept>])
+2024-05-22 20:45:26,649 [ElementTrace]-[INFO] <id=191, type=null, class=JudgedStatement>: putSubElementPositionDelegate(subElementId: 19, position: 4,5)
+2024-05-22 20:45:26,649 [ElementTrace]-[INFO] <id=191, type=null, class=JudgedStatement>: putSubElementPositionDelegate(subElementId: 16, position: 4,3)
+2024-05-22 20:45:26,649 [ElementTrace]-[INFO] <id=191, type=null, class=JudgedStatement>: putSubElementPositionDelegate(subElementId: 6, position: 4,1)
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=191, type=null, class=JudgedStatement, description="3+2=3+1+1">] ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=181, type=null, class=JudgedStatement, description="3+1+1=3+2">] ==========
+2024-05-22 20:45:26,649 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,677 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,678 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,678 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:26,678 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,678 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:26,678 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,679 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:26,679 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=5, type=null, class=Concept, description="2">] ==========
+2024-05-22 20:45:26,679 [ElementTrace]-[INFO] New Element: <id=193, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,679 [ElementTrace]-[INFO] <id=193, type=null, class=JudgedStatement>: setDescription("2+4+1=2+5")
+2024-05-22 20:45:26,679 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=193, type=null, class=JudgedStatement, description="2+4+1=2+5">] ==========
+2024-05-22 20:45:26,679 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,680 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,680 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,680 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:26,681 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,681 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:26,681 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,682 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=114, type=definition, class=Definition, description="1+1=2">] ==========
+2024-05-22 20:45:26,682 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=8, type=null, class=Concept, description="5">] ==========
+2024-05-22 20:45:26,683 [ElementTrace]-[INFO] New Element: <id=194, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,683 [ElementTrace]-[INFO] <id=194, type=null, class=JudgedStatement>: setDescription("5+1+1=5+2")
+2024-05-22 20:45:26,683 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=194, type=null, class=JudgedStatement, description="5+1+1=5+2">] ==========
+2024-05-22 20:45:26,683 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,684 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,684 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,684 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:26,685 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,685 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:26,686 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,697 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:26,697 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,698 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=177, type=null, class=JudgedStatement, description="5=4+1">] ==========
+2024-05-22 20:45:26,698 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,699 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,699 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,700 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:26,700 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,700 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:26,700 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:26,753 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:26,812 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=177, type=null, class=JudgedStatement, description="5=4+1">, <id=177, type=null, class=JudgedStatement, description="5=4+1">] ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: null ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=180, type=null, class=JudgedStatement, description="4=3+1">] ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=4, type=null, class=Concept, description="1">] ==========
+2024-05-22 20:45:26,875 [ElementTrace]-[INFO] New Element: <id=195, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,875 [ElementTrace]-[INFO] <id=195, type=null, class=JudgedStatement>: setDescription("4+1=3+1+1")
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=195, type=null, class=JudgedStatement, description="4+1=3+1+1">] ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,875 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,875 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,875 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:26,875 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=116, type=definition, class=Definition, description="4+1=5">] ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=4, type=null, class=Concept, description="1">] ==========
+2024-05-22 20:45:26,875 [ElementTrace]-[INFO] New Element: <id=196, type=null, class=JudgedStatement>
+2024-05-22 20:45:26,875 [ElementTrace]-[INFO] <id=196, type=null, class=JudgedStatement>: setDescription("1+4+1=1+5")
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=196, type=null, class=JudgedStatement, description="1+4+1=1+5">] ==========
+2024-05-22 20:45:26,875 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:26,875 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:26,875 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,875 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:26,875 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:26,891 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:26,891 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:26,936 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 100 ==========
+2024-05-22 20:45:26,964 [SimpleThinkAction]-[DEBUG] ========== antecedentCount == 150 ==========
+2024-05-22 20:45:27,020 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=195, type=null, class=JudgedStatement, description="4+1=3+1+1">, <id=181, type=null, class=JudgedStatement, description="3+1+1=3+2">] ==========
+2024-05-22 20:45:27,067 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:27,067 [ElementTrace]-[INFO] New Element: <id=197, type=null, class=JudgedStatement>
+2024-05-22 20:45:27,067 [ElementTrace]-[INFO] <id=197, type=null, class=JudgedStatement>: setDescription("4+1=3+2")
+2024-05-22 20:45:27,067 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=197, type=null, class=JudgedStatement, description="4+1=3+2">] ==========
+2024-05-22 20:45:27,067 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:27,067 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:27,067 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,073 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:27,073 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,073 [SimpleThinkAction]-[DEBUG] ========== hppID: 163; csqg: [<id=138, type=definition, class=Definition, description="<$1>=<$3>">] ==========
+2024-05-22 20:45:27,073 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">; <id=137, type=definition, class=Definition, description="<$2>=<$3>">;  ==========
+2024-05-22 20:45:27,078 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=177, type=null, class=JudgedStatement, description="5=4+1">, <id=197, type=null, class=JudgedStatement, description="4+1=3+2">] ==========
+2024-05-22 20:45:27,078 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:27,079 [ElementTrace]-[INFO] New Element: <id=198, type=null, class=JudgedStatement>
+2024-05-22 20:45:27,079 [ElementTrace]-[INFO] <id=198, type=null, class=JudgedStatement>: setDescription("5=3+2")
+2024-05-22 20:45:27,079 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=198, type=null, class=JudgedStatement, description="5=3+2">] ==========
+2024-05-22 20:45:27,079 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:27,080 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:27,080 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,080 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:27,080 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,080 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:27,080 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:27,081 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=197, type=null, class=JudgedStatement, description="4+1=3+2">] ==========
+2024-05-22 20:45:27,081 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:27,081 [ElementTrace]-[INFO] New Element: <id=199, type=null, class=JudgedStatement>
+2024-05-22 20:45:27,081 [ElementTrace]-[INFO] <id=199, type=null, class=JudgedStatement>: setDescription("3+2=4+1")
+2024-05-22 20:45:27,081 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=199, type=null, class=JudgedStatement, description="3+2=4+1">] ==========
+2024-05-22 20:45:27,081 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:27,096 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:27,096 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,096 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=199, type=null, class=JudgedStatement, description="3+2=4+1"> ==========
+2024-05-22 20:45:27,096 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,096 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:27,096 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,112 [ElementTrace]-[INFO] New Element: <id=200, type=information-element-group, class=InformationElementGroup>
+2024-05-22 20:45:27,112 [ElementTrace]-[INFO] <id=200, type=information-element-group, class=InformationElementGroup>: addGroupElement([<id=18, type=null, class=Concept>, <id=7, type=null, class=Concept>])
+2024-05-22 20:45:27,112 [ElementTrace]-[INFO] <id=199, type=null, class=JudgedStatement>: addSubInformationElement([<id=18, type=null, class=Concept>, <id=7, type=null, class=Concept>])
+2024-05-22 20:45:27,114 [ElementTrace]-[INFO] <id=199, type=null, class=JudgedStatement>: putSubElementPositionDelegate(subElementId: 7, position: 4,1)
+2024-05-22 20:45:27,114 [ElementTrace]-[INFO] <id=199, type=null, class=JudgedStatement>: putSubElementPositionDelegate(subElementId: 18, position: 4,3)
+2024-05-22 20:45:27,114 [SimpleThinkAction]-[DEBUG] ========== hppID: 154; csqg: [<id=140, type=definition, class=Definition, description="<$3>+<$1>=<$3>+<$2>">] ==========
+2024-05-22 20:45:27,114 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:27,117 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=198, type=null, class=JudgedStatement, description="5=3+2">] ==========
+2024-05-22 20:45:27,118 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=5, type=null, class=Concept, description="2">] ==========
+2024-05-22 20:45:27,118 [ElementTrace]-[INFO] New Element: <id=201, type=null, class=JudgedStatement>
+2024-05-22 20:45:27,119 [ElementTrace]-[INFO] <id=201, type=null, class=JudgedStatement>: setDescription("2+5=2+3+2")
+2024-05-22 20:45:27,119 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=201, type=null, class=JudgedStatement, description="2+5=2+3+2">] ==========
+2024-05-22 20:45:27,119 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:27,119 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:27,119 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,119 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=199, type=null, class=JudgedStatement, description="3+2=4+1"> ==========
+2024-05-22 20:45:27,120 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,120 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:27,120 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,120 [SimpleThinkAction]-[DEBUG] ========== hppID: 158; csqg: [<id=139, type=definition, class=Definition, description="<$1>+<$3>=<$2>+<$3>">] ==========
+2024-05-22 20:45:27,120 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:27,120 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=198, type=null, class=JudgedStatement, description="5=3+2">] ==========
+2024-05-22 20:45:27,120 [SimpleThinkAction]-[DEBUG] ========== ca: [<id=17, type=null, class=Concept, description="3+2">] ==========
+2024-05-22 20:45:27,121 [ElementTrace]-[INFO] New Element: <id=202, type=null, class=JudgedStatement>
+2024-05-22 20:45:27,121 [ElementTrace]-[INFO] <id=202, type=null, class=JudgedStatement>: setDescription("5+3+2=3+2+3+2")
+2024-05-22 20:45:27,121 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=202, type=null, class=JudgedStatement, description="5+3+2=3+2+3+2">] ==========
+2024-05-22 20:45:27,121 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:27,122 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:27,122 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,122 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=199, type=null, class=JudgedStatement, description="3+2=4+1"> ==========
+2024-05-22 20:45:27,122 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,122 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:27,122 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,189 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:27,190 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:27,192 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=195, type=null, class=JudgedStatement, description="4+1=3+1+1">] ==========
+2024-05-22 20:45:27,192 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:27,192 [ElementTrace]-[INFO] New Element: <id=203, type=null, class=JudgedStatement>
+2024-05-22 20:45:27,192 [ElementTrace]-[INFO] <id=203, type=null, class=JudgedStatement>: setDescription("3+1+1=4+1")
+2024-05-22 20:45:27,192 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=203, type=null, class=JudgedStatement, description="3+1+1=4+1">] ==========
+2024-05-22 20:45:27,192 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:27,193 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:27,193 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,193 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=199, type=null, class=JudgedStatement, description="3+2=4+1"> ==========
+2024-05-22 20:45:27,193 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,193 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:27,194 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,194 [SimpleThinkAction]-[DEBUG] ========== hppID: 150; csqg: [<id=136, type=definition, class=Definition, description="<$2>=<$1>">] ==========
+2024-05-22 20:45:27,194 [SimpleThinkAction]-[DEBUG] ========== atdg: <id=135, type=definition, class=Definition, description="<$1>=<$2>">;  ==========
+2024-05-22 20:45:27,195 [SimpleThinkAction]-[DEBUG] ========== sa: [<id=198, type=null, class=JudgedStatement, description="5=3+2">] ==========
+2024-05-22 20:45:27,195 [SimpleThinkAction]-[DEBUG] ========== ca: null ==========
+2024-05-22 20:45:27,195 [ElementTrace]-[INFO] New Element: <id=204, type=null, class=JudgedStatement>
+2024-05-22 20:45:27,195 [ElementTrace]-[INFO] <id=204, type=null, class=JudgedStatement>: setDescription("3+2=5")
+2024-05-22 20:45:27,195 [SimpleThinkAction]-[DEBUG] ========== DynamicHypotheticalPropositionAction.execute: [<id=204, type=null, class=JudgedStatement, description="3+2=5">] ==========
+2024-05-22 20:45:27,195 [SimpleThinkAction]-[DEBUG] 
+2024-05-22 20:45:27,196 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=169, type=null, class=Statement, description="3+2=<#>"> ==========
+2024-05-22 20:45:27,196 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,196 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=199, type=null, class=JudgedStatement, description="3+2=4+1"> ==========
+2024-05-22 20:45:27,196 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,196 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=204, type=null, class=JudgedStatement, description="3+2=5"> ==========
+2024-05-22 20:45:27,196 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,196 [DynamicStatementAction]-[DEBUG] ========== this.dynamicStatement: <id=148, type=definition, class=Definition, description="<$a>+<$b>=<#c>">; ie: <id=191, type=null, class=JudgedStatement, description="3+2=3+1+1"> ==========
+2024-05-22 20:45:27,196 [DynamicStatementAction]-[DEBUG] 
+2024-05-22 20:45:27,197 [ElementTrace]-[INFO] New Element: <id=205, type=information-element-group, class=InformationElementGroup>
+2024-05-22 20:45:27,264 [ElementTrace]-[INFO] <id=205, type=information-element-group, class=InformationElementGroup>: addGroupElement([<id=8, type=null, class=Concept>])
+2024-05-22 20:45:27,264 [ElementTrace]-[INFO] <id=204, type=null, class=JudgedStatement>: addSubInformationElement([<id=8, type=null, class=Concept>])
+2024-05-22 20:45:27,264 [ElementTrace]-[INFO] <id=204, type=null, class=JudgedStatement>: putSubElementPositionDelegate(subElementId: 8, position: 4,1)
+
+SimpleThinkAction2_3_1.execute: [<id=8, type=null, class=Concept, description="5">]
