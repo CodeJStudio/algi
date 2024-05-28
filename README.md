@@ -1,6 +1,10 @@
 # Artificial Logical General Intelligence (ALGI) v1.0.0 (Prototype "Holiday")
 Prototype "Holiday" - A prototype model to implement that lets a machine learn the algorithm of doing addition of two natural numbers, which follows logicism, rather than connectionism.  
-这是一个使用逻辑主义模式，而非联结主义模式，实现让机器学会两个自然数相加算法的原型模型。
+这是一个使用**逻辑主义模式**，而非**联结主义模式**，实现让机器学会两个自然数相加算法的原型模型。
+
+
+Theoretically, it has better reasoning skills, and the whole thinking process can be traced.  
+理论上**推理能力更强**，**思考过程全程可追溯**。
 
 ![dialog1](https://github.com/CodeJStudio/algi/assets/114736018/938a8b6a-e2e9-4871-bff6-370ed93566be)
 
@@ -37,27 +41,38 @@ Prototype "Holiday" - A prototype model to implement that lets a machine learn t
 
 ### Launch: 
 
-1. Deploy projects "algi-neuros", "algi-sensors", "algi-web" to web server, and launch the server.
+1. Deploy projects "algi-neuros", "algi-sensors", "algi-web" to web server, and launch the server.  
+部署web应用：“algi-neuros”，“algi-sensors”，“algi-web”，并启动web服务器。
 
-2. Browse web application "algi-web", and start dialog. (eg: "http://localhost:8080/algi-web/")
+2. Browse web application "algi-web", and start dialog. (eg: "[http://localhost:8080/algi-web/](http://localhost:8080/algi-web/)")  
+在浏览器中访问“algi-web”服务，例如 “[http://localhost:8080/algi-web/](http://localhost:8080/algi-web/)”。
 
-3. In the beginning, you won't get the correct answer you want, until the prototype data is imported.
+3. In the beginning, you won't get the correct answer you want, until the prototype data is imported.  
+在最初，你不会得到想要的正确的答案，直到原型数据被导入。  
 ![dialog2](https://github.com/CodeJStudio/algi/assets/114736018/0b93b250-2602-4543-a0cb-369c3615da2f)  
-Import the default prototype data "algi-samples/src/main/resources/samples/HelloImporter.json" in console via below command.
+Import the default prototype data "algi-samples/src/main/resources/samples/HelloImporter.json" in console via below command.  
+用以下命令在控制台中导入默认的原型数据“algi-samples/src/main/resources/samples/HelloImporter.json”。  
+&emsp;&emsp;(*Refer to "[HelloImporter](#HelloImporter)")  
 ![import1](https://github.com/CodeJStudio/algi/assets/114736018/1950857d-2cf2-447f-95bd-17b52f241390)  
-Finish importing.
+Finish importing.  
+导入完成。  
 ![import2](https://github.com/CodeJStudio/algi/assets/114736018/84c5b668-afab-4f7c-baa3-5407f9623241)  
-Through the imported raw information and algorithm data, the result can be calculated correctly.
+Through the imported raw information and algorithm data, the result can be calculated correctly.  
+通过导入的原始信息和算法数据，可正确计算得到结果。  
 ![dialog3](https://github.com/CodeJStudio/algi/assets/114736018/3dfabdca-096a-4d15-a35c-d06edb496006)
 
-4. If it's willing to retain the raw and calculated data after restarting the web server, the persistence switch in "algi-neuros/src/main/resources/properties/neuros.properties" should be opened in advance, and arg "-s" should be appended to the import operation. (eg: "import d:\HelloImporter.json -s")
+4. If it's willing to retain the raw and calculated data after restarting the web server, the persistence switch in "algi-neuros/src/main/resources/properties/neuros.properties" should be opened in advance, and arg "-s" should be appended to the import operation. (eg: "import d:\HelloImporter.json -s")  
+如果希望在重启web服务器后，依然可以保留原始数据和计算数据，则需要提前打开“algi-neuros/src/main/resources/properties/neuros.properties”配置文件中的持久化开关；并在执行导入操作时，加上参数“-s”，例如“import d:\HelloImporter.json -s”。
 
 
-#### See ALGI-Samples for details on how this works.
+#### See ALGI-Samples for details on how this works.  
+具体的工作原理，请参见ALGI-Samples。
 
 ----------
 
 # ALGI Samples
+
+### HelloHoliday
 
 "HelloHoliday"s show how to implement a universal algorithm of natural number's addition with logicistic approach, by using a set of addition instances with different properties and algorithms. 
 Among them, the changes of the algorithms at different stages also reflect several different ways that human intelligence commonly uses in thinking processes.  
@@ -126,5 +141,16 @@ Because of the random algorithm involved, each synthesis operation process is di
 
 Algorithms of automatic synthesis have great room for improvement in the future, and some of the maturer connectionist algorithms currently used in AIGC may also play a role in this.  
 自动合成的算法在将来有极大的提升空间，目前AIGC中所采用的一些较为成熟的联结主义的算法也可能会在其中发挥一定作用。
+
+----------
+
+### HelloImporter
+
+"HelloImporter" is used to demonstrate generating the data for import by coding, and the demonstration data content comes from "HelloHoliday7_X". 
+The data format is json, and "algi-samples/src/main/resources/samples/HelloImporter.json" is the pre-generated import data, which can be directly used for the demonstration of Prototype "Holiday".  
+“HelloImport”用来演示通过代码生成可供导入的数据，演示数据内容出自“HelloHoliday7_X”。
+生成数据的格式为json，“algi-samples/src/main/resources/samples/HelloImporter.json”为预先生成的导入数据，可直接用于“Holiday”原型模型的演示。
+
+
 
 
