@@ -149,9 +149,7 @@ Algorithms of automatic synthesis have great room for improvement in the future,
 
 "HelloImporter" is used to demonstrate generating the data for import by coding, and the demonstration data content comes from "HelloHoliday7_X". 
 The data format is json, and "algi-samples/src/main/resources/samples/HelloImporter.json" is the pre-generated import data, which can be directly used for the demonstration of Prototype "Holiday".  
-“HelloImport”用来演示通过代码生成可供导入的数据，演示数据内容出自“HelloHoliday7_X”。
+“HelloImporter”用来演示通过代码生成可供导入的数据，演示数据内容出自“HelloHoliday7_X”。
 生成数据的格式为json，“algi-samples/src/main/resources/samples/HelloImporter.json”为预先生成的导入数据，可直接用于“Holiday”原型模型的演示。
-
-
 
 
