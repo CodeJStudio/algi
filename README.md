@@ -1,7 +1,7 @@
 # Artificial Logical General Intelligence (ALGI) v1.0.0 (Prototype "Holiday")
-Prototype "Holiday" - The real road to AGI  
+Prototype "Holiday" - A New Paradigm of Artificial Intelligence, The real road to AGI  
 The first AI model prototype to implement that lets a machine learn the algorithm of doing addition of two natural numbers, which follows logicism, rather than connectionism.  
-真正通向通用人工智能之路——这是首个基于**逻辑主义模式**，而非**联结主义模式**，实现让机器学会两个自然数相加算法的AI模型原型。
+人工智能新范式，真正通向通用人工智能之路——这是首个基于**逻辑主义模式**，而非**联结主义模式**，实现让机器学会两个自然数相加算法的AI模型原型。
 
 
 Theoretically, it has better reasoning skills, and the whole thinking process can be traced.  
