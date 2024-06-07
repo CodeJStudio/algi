@@ -1,7 +1,7 @@
 # Artificial Logical General Intelligence (ALGI) v1.0.0 (Prototype "Holiday")
 Prototype "Holiday" - A New Paradigm of Artificial Intelligence, the real road to AGI  
 The first AI model prototype to implement that lets a machine learn the algorithm of doing addition of two natural numbers, which follows logicism, rather than connectionism.  
-人工智能新范式，真正通向通用人工智能之路——这是首个基于**逻辑主义模式**，而非**联结主义模式**，实现让机器学会两个自然数相加算法的AI模型原型。
+人工智能新范式，真正通向通用人工智能之路——这是首个基于**逻辑主义模式**，而非**连接主义模式**，实现让机器学会两个自然数相加算法的AI模型原型。
 
 
 Theoretically, it has better reasoning skills, and the whole thinking process can be traced.  
@@ -141,7 +141,7 @@ Because of the random algorithm involved, each synthesis operation process is di
 “HelloHoliday3_3”中“5+4”的运算难度更高，耗时更长，成功率更低。
 
 Algorithms of automatic synthesis have great room for improvement in the future, and some of the maturer connectionist algorithms currently used in AIGC may also play a role in this.  
-自动合成的算法在将来有极大的提升空间，目前AIGC中所采用的一些较为成熟的联结主义的算法也可能会在其中发挥一定作用。
+自动合成的算法在将来有极大的提升空间，目前AIGC中所采用的一些较为成熟的连接主义的算法也可能会在其中发挥一定作用。
 
 ----------
 
